@@ -3,6 +3,11 @@
 # which are helpers for implementations of Open SDG. This file allows easy use
 # of those functions without altering Python code.
 
+# The following should be changed according to the hosting environment. In the most
+# common environment, Github Pages, you would need to set this according to the name
+# of this repository, after a preceding slash. Eg: /my-repository-name
+docs_baseurl: /vanuatu-training
+
 # Languages
 # ---------
 # This tells sdg-build to perform "translated builds" for each of the specified
@@ -98,10 +103,6 @@ reporting_status_extra_fields: []
 # ----------------------
 # This controls the automatic documentation that is created for your build.
 #
-# The following should be changed according to the hosting environment. In the most
-# common environment, Github Pages, you would need to set this according to the name
-# of this repository, after a preceding slash. Eg: /my-repository-name
-docs_baseurl: /open-sdg-simple-starter
 # This is the logo at the top of the automated documentation pages.
 docs_branding: SDG data build documentation
 # This displays at the top of the automated documentation homepage.

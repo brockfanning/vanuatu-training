@@ -1,7 +1,7 @@
 # Jekyll configuration for Open SDG platform
 
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
-remote_theme: open-sdg/open-sdg@1.2.0
+remote_theme: brockfanning/open-sdg@vanuatu-feature-set
 
 # Replace this title as needed.
 title: Indicators For The Sustainable Development Goals
@@ -25,7 +25,7 @@ metadata_edit_url: http://prose.io/#my-org/my-repo/edit/develop/meta/[id].md
 create_indicators:
   layout: indicator
 create_goals:
-  layout: goal-by-target-vertical
+  layout: goal-by-target
 create_pages:
   - folder: /
     layout: frontpage-alt
@@ -129,7 +129,8 @@ non_global_metadata: indicator.national_metadata
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
-goal_image_base: https://open-sdg.github.io/sdg-translations/assets/img/goals
+goal_image_base: /vanuatu-training/assets/img/goals
+goal_image_extension: jpg
 
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
@@ -195,3 +196,13 @@ breadcrumbs:
       path: /
     - label: general.goals
       path: /goals
+
+metadata_tabs:
+  - scope: national
+    title: indicator.national_metadata
+    description: indicator.national_metadata_blurb
+  - scope: sources
+    title: indicator.sources
+    description: ''
+
+hide_empty_metadata: true

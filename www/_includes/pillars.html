@@ -1,0 +1,40 @@
+<div class="goal-tiles">
+    <div class="row">
+        <div class="pillar col-xs-4 col-sm-4">
+        {% for goal in page.goals %}
+            {% assign pillar = goal.number | slice: 0, 3 %}
+            {% if pillar == 'ECO' %}
+            <div class="goal-tile">
+                <a href="{{ goal.url }}">
+                    <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}"/>
+                </a>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+        <div class="pillar col-xs-4 col-sm-4">
+        {% for goal in page.goals %}
+            {% assign pillar = goal.number | slice: 0, 3 %}
+            {% if pillar == 'ENV' %}
+            <div class="goal-tile">
+                <a href="{{ goal.url }}">
+                    <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}"/>
+                </a>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+        <div class="pillar col-xs-4 col-sm-4">
+        {% for goal in page.goals %}
+            {% assign pillar = goal.number | slice: 0, 3 %}
+            {% if pillar == 'SOC' %}
+            <div class="goal-tile">
+                <a href="{{ goal.url }}">
+                    <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}"/>
+                </a>
+            </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</div>

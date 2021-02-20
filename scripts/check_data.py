@@ -1,7 +1,9 @@
 from sdg.open_sdg import open_sdg_check
+from InputNsdpDatabase import InputNsdpDatabase
 
 # Validate the indicators.
-validation_successful = open_sdg_check(config='config_data.yml')
+nsdp_input = InputNsdpDatabase()
+validation_successful = open_sdg_check(config='config_data.yml', inputs=[nsdp_input])
 
 # If everything was valid, perform the build.
 if not validation_successful:

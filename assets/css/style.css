@@ -2551,7 +2551,8 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .layout-config-builder.contrast-high .btn-group .btn span {
   color: black; }
 
-.layout-frontpage-alt .goal-tiles .goal-tile {
+.layout-frontpage-alt .goal-tiles .goal-tile,
+.layout-goals .goal-tiles .goal-tile {
   width: 100%;
   max-width: 200px; }
 

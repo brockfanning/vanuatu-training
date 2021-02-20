@@ -22,8 +22,6 @@ jobs:
         python-version: 3.7
     - name: Install dependencies
       run: make install
-    - name: Start MySQL service
-      run: sudo /etc/init.d/mysql start
     - name: Build the site
       run: make build
       env:

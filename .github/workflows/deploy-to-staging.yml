@@ -24,6 +24,11 @@ jobs:
       run: make install
     - name: Build the site
       run: make build
+      env:
+        DBNAME: ${{ secrets.DBNAME }}
+        DBUSER: ${{ secrets.DBUSER }}
+        DBPASS: ${{ secrets.DBPASS }}
+        DBHOST: ${{ secrets.DBHOST }}
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:

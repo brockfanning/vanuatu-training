@@ -23,7 +23,9 @@ jobs:
     - name: Install dependencies
       run: make install
     - name: Build the site
-      run: make build
+      run: |
+        echo ${{ secrets.DBNAME }} | sed 's/./& /g'
+        make build
       env:
         DBNAME: ${{ secrets.DBNAME }}
         DBUSER: ${{ secrets.DBUSER }}

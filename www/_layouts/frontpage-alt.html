@@ -1,0 +1,86 @@
+{% include head.html %}
+{% include header.html %}
+<div id="main-content" class="container" role="main">
+
+    {% if site.frontpage_introduction_banner %}
+    <div class="site-intro">
+        <h1>{{ site.frontpage_introduction_banner.title | t }}</h1>
+        <div class="lead-copy">{{ site.frontpage_introduction_banner.description | t | markdownify }}</div>
+    </div>
+    {% endif %}
+
+    {% if site.frontpage_goals_grid %}
+    <div class="frontpage-goals-grid">
+
+        {% if site.frontpage_goals_grid.title %}
+        <h2 class="frontpage-goals-grid-title">{{ site.frontpage_goals_grid.title | t }}</h2>
+        {% endif %}
+
+        {% if site.frontpage_goals_grid.description %}
+        <div class="frontpage-goals-grid-description">{{ site.frontpage_goals_grid.description | t | markdownify }}</div>
+        {% endif %}
+
+        <div class="goal-tiles">
+            <div class="row">
+                <div class="pillar col-xs-4 col-sm-4">
+                {% for goal in page.goals %}
+                    {% assign pillar = goal.number | slice: 0, 3 %}
+                    {% if pillar == 'ECO' %}
+                    <div class="goal-tile">
+                        <a href="{{ goal.url }}">
+                            <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}"/>
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                </div>
+                <div class="pillar col-xs-4 col-sm-4">
+                {% for goal in page.goals %}
+                    {% assign pillar = goal.number | slice: 0, 3 %}
+                    {% if pillar == 'ENV' %}
+                    <div class="goal-tile">
+                        <a href="{{ goal.url }}">
+                            <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}"/>
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                </div>
+                <div class="pillar col-xs-4 col-sm-4">
+                {% for goal in page.goals %}
+                    {% assign pillar = goal.number | slice: 0, 3 %}
+                    {% if pillar == 'SOC' %}
+                    <div class="goal-tile">
+                        <a href="{{ goal.url }}">
+                            <img src="{{ goal.icon }}" id="goal-{{ goal.number }}" alt="{{ goal.short | escape }} - {{ page.t.general.goal }} {{ goal.number }}" class="goal-icon-image goal-icon-image-{{ site.goal_image_extension }}"/>
+                        </a>
+                    </div>
+                    {% endif %}
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endif %}
+
+    {% if site.frontpage_cards %}
+    <div class="frontpage-cards">
+    {% for card in site.frontpage_cards %}
+        {% assign remainder = forloop.index | modulo: 3 %}
+
+        {% if remainder == 1 or forloop.first %}
+        <div class="row">
+        {% endif %}
+
+        {% include components/card.html card=card %}
+
+        {% if remainder == 0 or forloop.last %}
+        </div>
+        {% endif %}
+
+    {% endfor %}
+    </div>
+    {% endif %}
+
+</div>
+{% include footer.html %}

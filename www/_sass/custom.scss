@@ -1,1 +1,9 @@
 // Enter any custom Sass in this file.
+.layout-frontpage-alt .goal-tiles .goal-tile {
+    width: 100%;
+    max-width: 200px;
+}
+
+#main-content .goal-tiles .pillar img {
+    width: calc(100% - 10px);
+}

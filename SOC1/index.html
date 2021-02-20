@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/vanuatu-training/en',
+  remoteDataBaseUrl: '/vanuatu-nsdp/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -30,6 +30,12 @@ var opensdg = {
   dataRounding: function(value) {
     // Alterations go here.
     return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
   },
 
   language: 'en',
@@ -97,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal SOC1 - Society 1 - Indicators For The Sustainable Development Goals</title>
+    <title>Goal SOC1 - Society 1 - Indicators For The National Sustainable Development Plan</title>
 
 
 
@@ -111,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/vanuatu-training/assets/js/lib/classList.js"></script>
+        <script src="/vanuatu-nsdp/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/vanuatu-training/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/vanuatu-training/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/vanuatu-nsdp/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/vanuatu-nsdp/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -127,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-training/assets/css/style.css?v=20210125042751">
+        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210220192423">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -160,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/vanuatu-training/" id="home">
-    <img src="/vanuatu-training/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/vanuatu-nsdp/" id="home">
+    <img src="/vanuatu-nsdp/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
@@ -174,18 +180,16 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/vanuatu-training/goals">Goals</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/reporting-status">Reporting Status</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/about">About</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/guidance">Guidance</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/faq">FAQ</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/news">Updates</a>
-    </li>
+    <a href="/vanuatu-nsdp/goals">Goals</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/about">About</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/faq">FAQ</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/news">Updates</a>
+</li>
 </ul>
 
     </li>
@@ -194,7 +198,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vanuatu-training/search">
+  <form action="/vanuatu-nsdp/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -204,7 +208,7 @@ var translations = {
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/vanuatu-training/search">
+  <form action="/vanuatu-nsdp/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -212,18 +216,16 @@ var translations = {
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/vanuatu-training/goals">Goals</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/reporting-status">Reporting Status</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/about">About</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/guidance">Guidance</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/faq">FAQ</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/news">Updates</a>
-    </li>
+    <a href="/vanuatu-nsdp/goals">Goals</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/about">About</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/faq">FAQ</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/news">Updates</a>
+</li>
 </ul>
 
     </nav>
@@ -238,19 +240,20 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/vanuatu-training/">Home</a></li>
-  <li><a href="/vanuatu-training/goals">Goals</a></li>
+  <li><a href="/vanuatu-nsdp/">Home</a></li>
+  <li><a href="/vanuatu-nsdp/goals">Goals</a></li>
   
   
 </ol>
 
+  
 </div>
 
 <div class="heading goal-banner goal-SOC1">
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="/vanuatu-training/assets/img/goals/en/SOC1.jpg" alt="Society 1 - Goal SOC1" id="goal-SOC1" />
+        <img src="/vanuatu-nsdp/assets/img/goals/en/SOC1.jpg" alt="Society 1 - Goal SOC1" id="goal-SOC1" class="goal-icon-image goal-icon-image-jpg" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -301,12 +304,360 @@ var translations = {
       <div class="col-md-12  goal-indicator">
         <span>
           SOC1.1.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-1-1">
+          SOC 1.1.1 Proportion of population speaking indigenous language daily
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.1.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-1-2">
+          SOC 1.1.2 Proportion of population first language learned indigenous
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.1.3
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-1-3">
+          SOC 1.1.3 Proportion of endangered languages documented
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        SOC1.2
+      </span>
+      global_targets.SOC1-2-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.2.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-2-1">
+          SOC 1.2.1 Proportion of population with knowledge of traditional stories, dances, songs, and games
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.2.2
           <span class="status complete">
             Reported online
           </span>
         </span>
-        <a href="/vanuatu-training/SOC1-1-1">
-          Proportion of population speaking indigenous language daily
+        <a href="/vanuatu-nsdp/SOC1-2-2">
+          SOC 1.2.2 Proportion of population possessing common and basic traditional production skills related to weaving, transport, housing, farming, food preparation
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.2.3
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-2-3">
+          SOC 1.2.3 Proportion of population with ability to 1: produce herbal medicines, and 2: massage 
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        SOC1.3
+      </span>
+      global_targets.SOC1-3-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.3.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-3-1">
+          SOC 1.3.1 Total number of sites with cultural and/or historical significance newly identified, registered and preserved
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        SOC1.4
+      </span>
+      global_targets.SOC1-4-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.4.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-4-1">
+          SOC 1.4.1 Proportion of bills that are reviewed by MCC prior to parliamentary debate
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        SOC1.5
+      </span>
+      global_targets.SOC1-5-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.5.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-5-1">
+          SOC 1.5.1 Proportion of national formal and informal educational institutions and health facilities with religious affiliation and support
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        SOC1.6
+      </span>
+      global_targets.SOC1-6-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.6.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-6-1">
+          SOC 1.6.1 Proportion of public schools using the culture and heritage modules in national curriculum at all levels
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.6.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-6-2">
+          SOC 1.6.2 Proportion of cultural heritage materials in the national curriculum at all levels
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        SOC1.7
+      </span>
+      global_targets.SOC1-7-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.7.1
+          <span class="status complete">
+            Reported online
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-7-1">
+          SOC 1.7.1 Proportion of population with free access to traditional lands, forest and marine resources
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          SOC1.7.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/SOC1-7-2">
+          SOC 1.7.2 Proportion of population that use traditional lands for agriculture, marine, forestry and livestock for consumption or customary purposes
         </a>
         
       </div>
@@ -339,11 +690,13 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/vanuatu-training/about/cookies-and-privacy/">Cookies</a>
+                <a href="/vanuatu-nsdp/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
             
+            
+            <li><a href="/vanuatu-nsdp/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -376,12 +729,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-training/assets/js/sdg.js?v=20210125042751'></script>
+<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210220192423'></script>
 
 
     
     
-    <script src="/vanuatu-training/assets/js/custom.js?v=20210125042751"></script><script>
+    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210220192423"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -421,10 +774,12 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              precision: domData.precision,
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
               legendElement: '#plotLegend',
+              decimalSeparator: '',
               maxChartHeight: 420,
               tableColumnDefs: [
                 { maxCharCount: 25 }, // nowrap

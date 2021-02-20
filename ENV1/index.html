@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/vanuatu-training/en',
+  remoteDataBaseUrl: '/vanuatu-nsdp/en',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -30,6 +30,12 @@ var opensdg = {
   dataRounding: function(value) {
     // Alterations go here.
     return value;
+  },
+
+  // A hook which can be used to alter the data before it is displayed on charts/tables.
+  dataDisplayAlterations: [],
+  dataDisplayAlter: function(callback) {
+    this.dataDisplayAlterations.push(callback);
   },
 
   language: 'en',
@@ -97,7 +103,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal ENV1 - Environment 1 - Indicators For The Sustainable Development Goals</title>
+    <title>Goal ENV1 - Environment 1 - Indicators For The National Sustainable Development Plan</title>
 
 
 
@@ -111,13 +117,13 @@ var translations = {
         
 
         <!--[if IE 9]>
-        <script src="/vanuatu-training/assets/js/lib/classList.js"></script>
+        <script src="/vanuatu-nsdp/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/vanuatu-training/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/vanuatu-training/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/vanuatu-nsdp/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/vanuatu-nsdp/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -127,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-training/assets/css/style.css?v=20210125042751">
+        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210220192423">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -160,8 +166,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/vanuatu-training/" id="home">
-    <img src="/vanuatu-training/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/vanuatu-nsdp/" id="home">
+    <img src="/vanuatu-nsdp/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'></ul></div>
@@ -174,18 +180,16 @@ var translations = {
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menu</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/vanuatu-training/goals">Goals</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/reporting-status">Reporting Status</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/about">About</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/guidance">Guidance</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/faq">FAQ</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/news">Updates</a>
-    </li>
+    <a href="/vanuatu-nsdp/goals">Goals</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/about">About</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/faq">FAQ</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/news">Updates</a>
+</li>
 </ul>
 
     </li>
@@ -194,7 +198,7 @@ var translations = {
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Search</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/vanuatu-training/search">
+  <form action="/vanuatu-nsdp/search">
     <label class="sr-only" for="indicator_search-mobile">Search</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
     --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -204,7 +208,7 @@ var translations = {
     </li>
 </ul>
       <div id="search" class="menu-target">
-  <form action="/vanuatu-training/search">
+  <form action="/vanuatu-nsdp/search">
     <label class="sr-only" for="indicator_search">Search</label>
     <input type="text" name="q" id="indicator_search" title="Search" /><!--
     --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -212,18 +216,16 @@ var translations = {
 </div>
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/vanuatu-training/goals">Goals</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/reporting-status">Reporting Status</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/about">About</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/guidance">Guidance</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/faq">FAQ</a>
-    </li><li class="nav-link ">
-    <a href="/vanuatu-training/news">Updates</a>
-    </li>
+    <a href="/vanuatu-nsdp/goals">Goals</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/reporting-status">Reporting Status</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/about">About</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/faq">FAQ</a>
+</li><li class="nav-link ">
+    <a href="/vanuatu-nsdp/news">Updates</a>
+</li>
 </ul>
 
     </nav>
@@ -238,19 +240,20 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/vanuatu-training/">Home</a></li>
-  <li><a href="/vanuatu-training/goals">Goals</a></li>
+  <li><a href="/vanuatu-nsdp/">Home</a></li>
+  <li><a href="/vanuatu-nsdp/goals">Goals</a></li>
   
   
 </ol>
 
+  
 </div>
 
 <div class="heading goal-banner goal-ENV1">
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="/vanuatu-training/assets/img/goals/en/ENV1.jpg" alt="Environment 1 - Goal ENV1" id="goal-ENV1" />
+        <img src="/vanuatu-nsdp/assets/img/goals/en/ENV1.jpg" alt="Environment 1 - Goal ENV1" id="goal-ENV1" class="goal-icon-image goal-icon-image-jpg" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
@@ -301,12 +304,336 @@ var translations = {
       <div class="col-md-12  goal-indicator">
         <span>
           ENV1.1.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-1-1">
+          ENV 1.1.1 Proportion of households engaged in production of food for own consumption
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.1.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-1-2">
+          ENV 1.1.2 Up to date data on primary production (agriculture, livestock, forestry, fisheries, biosecurity) available for analysis and informed decision-making and reporting
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.1.3
           <span class="status complete">
             Reported online
           </span>
         </span>
-        <a href="/vanuatu-training/ENV1-1-1">
-          Proportion of households engaged in production of food for own consumption
+        <a href="/vanuatu-nsdp/ENV1-1-3">
+          ENV 1.1.3 Average incidence of food poverty at the household level (Food Poverty Line)
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        ENV1.2
+      </span>
+      global_targets.ENV1-2-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.2.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-2-1">
+          ENV 1.2.1 National food guidelines directing food security and nutrition promotional activities (including aelan kaikai) completed and operational
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        ENV1.3
+      </span>
+      global_targets.ENV1-3-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.3.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-3-1">
+          ENV 1.3.1 Total annual volume of imports of food and products targeted by DARD as those that can be produced domestically (including ‘value-added products)
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.3.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-3-2">
+          ENV 1.3.2 Domestic food price level
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.3.3
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-3-3">
+          ENV 1.3.3 Food Price Inflation Rate or Food Price Index compared to the national consumer price index (how much are prices for food going up or down, relative to all prices in the country-based on VNSO data)
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        ENV1.4
+      </span>
+      global_targets.ENV1-4-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.4.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-4-1">
+          ENV 1.4.1Total FADs per 1,000 population by province
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.4.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-4-2">
+          ENV 1.4.2 Total number of people receiving training in food storage and preservation per year in MALFFB led, NGO or partnered initiatives
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.4.3
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-4-3">
+          ENV 1.4.3 Establishment of land use capability mapping systems to determine which crops and farming systems are best suited to different areas
+        </a>
+        
+      </div>
+    
+    </div>
+  
+    
+    <div class="indicator-cards target goal-target col-md-6">
+      <span>
+        <label class="hidden-md hidden-lg">Policy objective</label>
+        ENV1.5
+      </span>
+      global_targets.ENV1-5-title
+    </div>
+    <div class="indicator-cards col-md-6 row no-gutters">
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.5.1
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-5-1">
+          ENV 1.5.1 Proportion of producers across the productive sector that have undergone Agro-Met training
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.5.2
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-5-2">
+          ENV 1.5.2 Crop diversity index with a focus on fruit and vegetables (average number of varieties planted of crops by province)
+        </a>
+        
+      </div>
+    
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <div class="col-md-12  goal-indicator">
+        <span>
+          ENV1.5.3
+          <span class="status notstarted">
+            Exploring data sources
+          </span>
+        </span>
+        <a href="/vanuatu-nsdp/ENV1-5-3">
+          ENV 1.5.3 Proportion of farmers involved in integrated farming practices
         </a>
         
       </div>
@@ -339,11 +666,13 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/vanuatu-training/about/cookies-and-privacy/">Cookies</a>
+                <a href="/vanuatu-nsdp/about/cookies-and-privacy/">Cookies</a>
                 
                 </li>
               
             
+            
+            <li><a href="/vanuatu-nsdp/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -376,12 +705,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-training/assets/js/sdg.js?v=20210125042751'></script>
+<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210220192423'></script>
 
 
     
     
-    <script src="/vanuatu-training/assets/js/custom.js?v=20210125042751"></script><script>
+    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210220192423"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -421,10 +750,12 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              precision: domData.precision,
             }),
             view  = new indicatorView(model, {
               rootElement: '#indicatorData',
               legendElement: '#plotLegend',
+              decimalSeparator: '',
               maxChartHeight: 420,
               tableColumnDefs: [
                 { maxCharCount: 25 }, // nowrap

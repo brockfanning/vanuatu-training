@@ -57,22 +57,18 @@ ul {
 .table-hover tbody tr:hover {
   background: #e0e0e0; }
 
-#page-content {
-  border-top: 1px solid #faebcc;
-  border-bottom: 1px solid #faebcc;
-  padding-top: 10px; }
-  #page-content table {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    border-style: solid;
-    border-color: #0b0c0c;
-    border-width: 1px; }
-  #page-content td, #page-content th {
-    padding-right: 5px;
-    padding-left: 5px; }
-  #page-content thead {
-    padding-bottom: 10px;
-    border-bottom: 1pt solid #0b0c0c; }
+#page-content table {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-style: solid;
+  border-color: #0b0c0c;
+  border-width: 1px; }
+#page-content td, #page-content th {
+  padding-right: 5px;
+  padding-left: 5px; }
+#page-content thead {
+  padding-bottom: 10px;
+  border-bottom: 1pt solid #0b0c0c; }
 
 table thead th .sort {
   background-image: none !important; }
@@ -104,6 +100,9 @@ h3 {
 
 .lead-copy {
   font-size: 22px; }
+
+.small-text {
+  font-size: 85%; }
 
 .goal-banner a {
   background: transparent;
@@ -281,6 +280,12 @@ body.contrast-high .breadcrumb {
   body.contrast-high .breadcrumb > li + li::before {
     border-color: white; }
 
+.previous-next-links {
+  margin-top: 20px; }
+
+body.contrast-high .previous-next-links .btn span {
+  color: black; }
+
 #main-content .collapsible {
   border-top: 1px solid #e0e0e0;
   border-bottom: 1px solid #e0e0e0;
@@ -349,14 +354,18 @@ h5 + .btn-download {
 .image-download-in-progress, .image-download-in-progress * {
   padding: 0;
   margin: 0; }
-.image-download-in-progress #chart-canvas {
-  margin-top: -30px; }
 .image-download-in-progress #selectionChartFooter {
   padding-left: 20px; }
   .image-download-in-progress #selectionChartFooter p {
     margin-bottom: 10px; }
 .image-download-in-progress .hide-during-image-download {
   display: none; }
+.image-download-in-progress.contrast-high #indicator-main {
+  width: 120%; }
+.image-download-in-progress.contrast-high #chart-canvas {
+  background-color: black !important; }
+.image-download-in-progress.contrast-high #chart-heading, .image-download-in-progress.contrast-high #selectionChartFooter {
+  max-width: 90%; }
 
 .zip-download-container {
   margin-top: 20px; }
@@ -1088,11 +1097,19 @@ body.contrast-high #main-content .nav-tabs {
     #accessibility-nav li.contrast-default {
       display: none;
       background: white; }
+      @media (-ms-high-contrast: active), (forced-colors: active) {
+        #accessibility-nav li.contrast-default {
+          -ms-high-contrast-adjust: none;
+          forced-color-adjust: none; } }
       #accessibility-nav li.contrast-default a {
         color: black; }
     #accessibility-nav li.contrast-high {
       display: block;
       background: black; }
+      @media (-ms-high-contrast: active), (forced-colors: active) {
+        #accessibility-nav li.contrast-high {
+          -ms-high-contrast-adjust: none;
+          forced-color-adjust: none; } }
       #accessibility-nav li.contrast-high a {
         color: yellow; }
 
@@ -1321,10 +1338,18 @@ body.contrast-high .navbar-brand:focus {
         text-decoration: none; }
     .navbar ul.navbar-nav > li.contrast-default {
       background: white; }
+      @media (-ms-high-contrast: active), (forced-colors: active) {
+        .navbar ul.navbar-nav > li.contrast-default {
+          -ms-high-contrast-adjust: none;
+          forced-color-adjust: none; } }
       .navbar ul.navbar-nav > li.contrast-default a {
         color: black; }
     .navbar ul.navbar-nav > li.contrast-high {
       background: black; }
+      @media (-ms-high-contrast: active), (forced-colors: active) {
+        .navbar ul.navbar-nav > li.contrast-high {
+          -ms-high-contrast-adjust: none;
+          forced-color-adjust: none; } }
       .navbar ul.navbar-nav > li.contrast-high a {
         color: yellow; }
     @media screen and (min-width: 769px) {
@@ -1480,6 +1505,28 @@ header ul {
   padding-left: 0;
   list-style-type: none; }
 
+.btn-group.menu-dropdown .dropdown-toggle {
+  margin: 0 0 2px 15px;
+  padding: 2px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  color: #595959; }
+  .btn-group.menu-dropdown .dropdown-toggle:hover {
+    background: none;
+    border-bottom: 2px solid #aaaaaa; }
+.btn-group.menu-dropdown .dropdown-menu {
+  border-radius: 0;
+  margin-left: 15px; }
+  .btn-group.menu-dropdown .dropdown-menu a {
+    color: #595959; }
+  .btn-group.menu-dropdown .dropdown-menu .active a {
+    background: none;
+    color: #595959; }
+    .btn-group.menu-dropdown .dropdown-menu .active a:hover {
+      background: #f5f5f5; }
+
 body.contrast-high .navbar #menu li a, body.contrast-high .navbar #menu-mobile li a {
   color: white; }
   body.contrast-high .navbar #menu li a:hover, body.contrast-high .navbar #menu li a:focus, body.contrast-high .navbar #menu-mobile li a:hover, body.contrast-high .navbar #menu-mobile li a:focus {
@@ -1500,6 +1547,18 @@ body.contrast-high .navbar #search button, body.contrast-high .navbar #search-mo
   color: white; }
 body.contrast-high .navbar .top-level > li.active button {
   color: black; }
+body.contrast-high .navbar #menu .btn-group.menu-dropdown .dropdown-toggle {
+  color: white !important;
+  background: black !important; }
+  body.contrast-high .navbar #menu .btn-group.menu-dropdown .dropdown-toggle:hover {
+    color: yellow !important; }
+  body.contrast-high .navbar #menu .btn-group.menu-dropdown .dropdown-toggle:focus {
+    background: #ffdd00 !important;
+    color: #0b0c0c !important; }
+body.contrast-high .navbar #menu .btn-group.menu-dropdown .dropdown-menu li a {
+  color: black; }
+  body.contrast-high .navbar #menu .btn-group.menu-dropdown .dropdown-menu li a:hover {
+    text-decoration: underline; }
 @media screen and (max-width: 768px) {
   body.contrast-high .navbar.navbar-default {
     background: black;
@@ -1976,6 +2035,11 @@ body.contrast-high #legend li {
     background: transparent !important;
     border: 1px solid white; }
 
+.layout-indicator #page-content {
+  border-top: 1px solid #faebcc;
+  border-bottom: 1px solid #faebcc;
+  padding-top: 10px; }
+
 @media only screen and (max-width: 500px) {
   body.layout-indicator .container .goal-icon {
     float: none; }
@@ -1987,6 +2051,13 @@ body.contrast-high #legend li {
 .goal-banner h1 .lead-copy {
   display: block;
   margin-top: 10px; }
+
+#sources .row > div:nth-child(odd) {
+  clear: left; }
+
+.layout-goal #page-content, .layout-goal-by-target #page-content, .layout-goal-by-target-vertical #page-content {
+  margin-top: -20px;
+  margin-bottom: 10px; }
 
 body.contrast-high .goal-indicators div span {
   border-color: white !important;
@@ -2005,32 +2076,19 @@ body.contrast-high .goal-indicators .indicator-cards span.status.notstarted {
 body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards a {
   color: yellow; }
 
-.post-categories {
-  padding: 0;
-  margin: 15px 10px 0 0;
-  list-style-type: none; }
-  .post-categories li {
-    margin-right: 6px;
-    padding: 4px 6px;
-    display: inline;
-    border-radius: 10px; }
-  .post-categories li a {
-    color: #0b0c0c; }
-
-.post-title {
-  margin-top: 0; }
-
-.newslist article {
-  margin-bottom: 20px; }
-  .newslist article p {
-    margin: 0; }
-    .newslist article p:first {
-      font-size: 90%; }
-  .newslist article h5 {
-    margin: 3px 0;
-    font-size: 120%; }
-  .newslist article time {
-    margin: 0; }
+.layout-news .post-listing {
+  clear: both; }
+  .layout-news .post-listing .post-categories {
+    list-style-type: none; }
+    .layout-news .post-listing .post-categories li {
+      display: inline-block;
+      margin-right: 20px; }
+  .layout-news .post-listing .post-title {
+    font-size: 16px;
+    margin-bottom: 7px !important; }
+  .layout-news .post-listing .post-date {
+    float: left;
+    margin-right: 40px; }
 
 .layout-reportingstatus .reporting-status-description {
   margin-bottom: 25px; }
@@ -2055,6 +2113,7 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   font-weight: normal; }
 #main-content .statuses > div {
   display: inline-block;
+  margin-bottom: 5px;
   margin-right: 10px; }
   #main-content .statuses > div .status {
     display: inline-block;
@@ -2095,6 +2154,10 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   border: 1px solid #0b0c0c;
   font-size: 0;
   margin-top: 10px; }
+  @media (-ms-high-contrast: active), (forced-colors: active) {
+    #main-content .goal-stats {
+      -ms-high-contrast-adjust: none;
+      forced-color-adjust: none; } }
   #main-content .goal-stats span {
     display: inline-block;
     height: 10px;
@@ -2107,18 +2170,19 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
   padding-bottom: 4px;
   border-bottom: 1px solid #ccc; }
   #main-content .goal .total {
-    line-height: 24px;
-    vertical-align: middle;
+    line-height: 1.2;
     font-size: 16px;
     width: auto;
     padding-left: 4px;
     padding-right: 4px;
     text-align: center;
     display: inline-block;
-    margin-left: 10px;
-    margin-top: -2px;
+    margin-bottom: 10px;
     border-radius: 4px;
     border: 1px solid #ccc; }
+    @media screen and (min-width: 520px) {
+      #main-content .goal .total {
+        margin-left: 10px; } }
 #main-content .frame {
   width: 115px;
   float: left;
@@ -2128,9 +2192,15 @@ body.contrast-high #main-content.goal-indicators.goal-by-target .indicator-cards
 #main-content .details {
   width: calc(100% - 125px);
   float: left; }
+  @media screen and (min-width: 520px) {
+    #main-content .details h2 {
+      display: inline-block; } }
   #main-content .details h3 {
     margin-top: 10px;
-    line-height: 24px; }
+    line-height: 1.2; }
+    @media screen and (min-width: 520px) {
+      #main-content .details h3 {
+        display: inline-block; } }
     @media only screen and (max-width: 720px) {
       #main-content .details h3 {
         margin-top: 3px; } }
@@ -2448,7 +2518,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
 .layout-config-builder div[data-schemapath="root"] > .well > div > div > .row > div[data-schematype] > div a {
   margin-top: 15px;
   display: inline-block; }
-.layout-config-builder div[data-schemapath="root"] > h3 {
+.layout-config-builder div[data-schemapath="root"] > .je-header {
   display: none !important; }
 .layout-config-builder .help-block {
   color: #0b0c0c; }

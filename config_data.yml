@@ -6,7 +6,7 @@
 # The following should be changed according to the hosting environment. In the most
 # common environment, Github Pages, you would need to set this according to the name
 # of this repository, after a preceding slash. Eg: /my-repository-name
-docs_baseurl: /vanuatu-training
+docs_baseurl: /vanuatu-nsdp
 
 # Languages
 # ---------

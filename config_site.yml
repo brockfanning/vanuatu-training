@@ -1,12 +1,20 @@
 # Jekyll configuration for Open SDG platform
 
+# ***************************************************************
+# | NOTE: For Open SDG configuration, see the following files:  |
+# |                                                             |
+# | www/_data/site_config.yml                                   |
+# | www/_data/site_config_prod.yml                              |
+# |                                                             |
+# ***************************************************************
+
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 remote_theme: brockfanning/open-sdg@vanuatu-feature-set
 
 # Replace this title as needed.
-title: Indicators For The Sustainable Development Goals
+title: Indicators For The National Sustainable Development Plan
 # Replace the baseurl with the name of this repository.
-baseurl: "/vanuatu-training"
+baseurl: "/vanuatu-nsdp"
 source: www
 
 # Pages

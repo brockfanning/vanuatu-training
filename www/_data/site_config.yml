@@ -105,7 +105,7 @@ frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: /vanuatu-training/assets/img/goals
+goal_image_base: /vanuatu-nsdp/assets/img/goals
 goal_image_extension: jpg
 goals_page:
   title: ''

@@ -1,0 +1,6 @@
+analytics:
+  ga_prod: ''
+disclaimer:
+  phase: ''
+  message: ''
+environment: production

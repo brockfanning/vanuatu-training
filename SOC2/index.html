@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210220200904">
+        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210222201657">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -247,6 +247,24 @@ var translations = {
 </ol>
 
   
+    
+<div class="previous-next-links row">
+    <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
+        <a class="btn btn-primary" href="/vanuatu-nsdp/SOC1" aria-labelledby="previous-link">
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+        </a>
+    </div>
+    <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
+        <a class="btn btn-primary" href="/vanuatu-nsdp/SOC3" aria-labelledby="next-link">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+        </a>
+    </div>
+</div>
+
+
+  
 </div>
 
 <div class="heading goal-banner goal-SOC2">
@@ -283,7 +301,7 @@ var translations = {
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Policy objective</label>
         SOC2.1
       </span>
@@ -302,7 +320,7 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           SOC2.1.1
           <span class="status notstarted">
             Exploring data sources
@@ -312,13 +330,14 @@ var translations = {
           SOC 2.1.1 Percentage of age 6 in Yr. 1 who attended kindergarten
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Policy objective</label>
         SOC2.2
       </span>
@@ -337,7 +356,7 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           SOC2.2.1
           <span class="status notstarted">
             Exploring data sources
@@ -347,13 +366,14 @@ var translations = {
           SOC 2.2.1 Percentage of schools demonstrating effective implementation and management of school grants
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Policy objective</label>
         SOC2.3
       </span>
@@ -372,7 +392,7 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           SOC2.3.1
           <span class="status notstarted">
             Exploring data sources
@@ -382,13 +402,14 @@ var translations = {
           SOC 2.3.1 Percentage of students meeting literacy and numeracy standards
         </a>
         
+
       </div>
     
     </div>
   
     
     <div class="indicator-cards target goal-target col-md-6">
-      <span>
+      <span class="indicator-card-number">
         <label class="hidden-md hidden-lg">Policy objective</label>
         SOC2.4
       </span>
@@ -407,7 +428,7 @@ var translations = {
       
 
       <div class="col-md-12  goal-indicator">
-        <span>
+        <span class="indicator-card-number">
           SOC2.4.1
           <span class="status notstarted">
             Exploring data sources
@@ -417,6 +438,7 @@ var translations = {
           SOC 2.4.1 No. of technical and vocational schools that are certified and registered under the Vanuatu Qualifications Authority to operate
         </a>
         
+
       </div>
     
     </div>
@@ -486,12 +508,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210220200904'></script>
+<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210222201657'></script>
 
 
     
     
-    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210220200904"></script><script>
+    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210222201657"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
@@ -531,6 +553,7 @@ $(function() {
               stackedDisaggregation: domData.stackeddisaggregation,
               graphAnnotations: domData.graphannotations,
               indicatorDownloads: domData.indicatordownloads,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
               precision: domData.precision,
             }),
             view  = new indicatorView(model, {

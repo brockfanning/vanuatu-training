@@ -21,3 +21,8 @@ jobs:
       run: make install
     - name: Test the site
       run: make test
+      env:
+        DBNAME: ${{ secrets.DBNAME }}
+        DBUSER: ${{ secrets.DBUSER }}
+        DBPASS: ${{ secrets.DBPASS }}
+        DBHOST: ${{ secrets.DBHOST }}

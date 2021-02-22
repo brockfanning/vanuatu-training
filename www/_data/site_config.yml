@@ -25,9 +25,11 @@ create_config_forms:
   layout: config-builder
 create_goals:
   layout: goal-by-target
+  previous_next_links: true
   goals: []
 create_indicators:
   layout: indicator
+  previous_next_links: true
 create_pages:
   - filename: ''
     folder: /
@@ -52,7 +54,10 @@ create_pages:
 custom_css: []
 custom_js:
   - /assets/js/custom.js
-data_edit_url: '../editor-instructions/'
+data_edit_url: ../editor-instructions/
+data_fields:
+  units: ''
+  series: ''
 date_formats: []
 disclaimer:
   phase: ''
@@ -96,15 +101,21 @@ frontpage_cards:
     button_link: 'https://example.com'
     rule_color: ''
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
+  title: Our data for National Sustainable Development Plan indicators
   description: >-
-    Click on each goal for our Sustainable Development Goal global indicator
+    Click on each goal for our National Sustainable Development Plan indicator
     data.
 frontpage_heading: ''
 frontpage_instructions: ''
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
+  title: 'Vanuatu 2030: The People''s Plan'
+  description: >-
+    The national sustainable development goals and policy objectives outlined in
+    *Vanuatu 2030: The People's Plan (National Sustainable Development Plan 2016
+    to 2030)* are the overarching guide for government planning over the next 15
+    years. Together they articulate a path for Vanuatu to emerge as a much
+    stronger nation, renewing our traditions and values, and creating economic
+    opportunities for all.
 goal_image_base: /vanuatu-nsdp/assets/img/goals
 goal_image_extension: jpg
 goals_page:
@@ -162,7 +173,7 @@ menu:
     translation_key: menu.faq
   - path: /news
     translation_key: menu.updates
-metadata_edit_url: '../editor-instructions/'
+metadata_edit_url: ../editor-instructions/
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata

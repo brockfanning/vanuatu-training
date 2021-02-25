@@ -47,7 +47,7 @@ class InputNsdpDatabase(InputBase):
         return "SELECT * FROM nsdpindicator"
 
     def get_value_sql(self):
-        return "SELECT r.Year, r.Value FROM nsdpdata AS d JOIN nsdpyearvalue AS r ON d.RecordID = r.RecordID WHERE d.IndicatorID = %s AND r.Value != 'NA'"
+        return "SELECT r.Year, r.Value FROM nsdpdata AS d JOIN nsdpyearvalue AS r ON d.DataID = r.DataID WHERE d.IndicatorID = %s AND r.Value != 'NA'"
 
     def get_metadata_sql(self):
         return "SELECT * FROM nsdpmetadata WHERE NSDPIndicatorID = %s"
@@ -56,7 +56,12 @@ class InputNsdpDatabase(InputBase):
         return int(year)
 
     def fix_value(self, value):
-        return int(value.replace('%', ''))
+        value = value.replace('%', '')
+        value = value.replace(',', '')
+        try:
+            return int(value)
+        except:
+            return float(value)
 
     def fix_indicator_id(self, indicator_id):
         return indicator_id.replace(' ', '').replace('.', '-')

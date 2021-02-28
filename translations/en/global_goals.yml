@@ -1,12 +1,30 @@
-SOC1-short: Society 1
-SOC1-title: A Nation based on traditional governance and Christian principles,
-  which underpin our culture and continue to bestow life skills and knowledge
-  to future generations
-ENV1-short: Environment 1
-ENV1-title: A nation that ensures our food and nutrition security needs are
-  adequately met for all people through increasing sustainable food production
-  systems and improving household production
 ECO1-short: Economy 1
-ECO1-title: A stable and prosperous economy, encouraging trade, investment
-  and providing economic opportunities for all members of society throughout
-  Vanuatu
+ECO1-title: A stable and prosperous economy, encouraging trade, investment and providing economic opportunities for all members of society throughout Vanuatu
+ECO2-short: Economy 2
+ECO2-title: Sustainable and well-maintained infrastructure and services for all, through inclusive and effective partnerships
+ECO3-short: Economy 3
+ECO3-title: A strong rural economy that creates opportunities, enables the development of rural communities and increasingly contributes to national prosperity
+ECO4-short: Economy 4
+ECO4-title: An enabling business environment, creating opportunities and employment for entrepreneurs throughout Vanuatu
+ENV2-short: Enviornment 2
+ENV2-title: An economy which fosters sustainable growth and development through low impact industries and modern technologies to ensure the well-being of future generations
+ENV1-short: Environment 1
+ENV1-title: A nation that ensures our food and nutrition security needs are adequately met for all people through increasing sustainable food production systems and improving household production
+ENV3-short: Environment 3
+ENV3-title: A strong and resilient nation in the face of climate change and disaster risks posed by natural and man-made hazards
+ENV4-short: Environment 4
+ENV4-title: A nation which utilises and sustainably manages our land, water and natural resources
+ENV5-short: Environment 5
+ENV5-title: A nation committed to ensuring the conservation and sustainable management of our biodiversity and ecosystems
+SOC1-short: Society 1
+SOC1-title: A Nation based on traditional governance and Christian principles, which underpin our culture and continue to bestow life skills and knowledge to future generations
+SOC2-short: Society 2
+SOC2-title: An inclusive and equitable quality education system with life-long learning for all
+SOC3-short: Society 3
+SOC3-title: A healthy population that enjoys a high quality of physical, mental, spiritual and social well-being
+SOC4-short: Society 4
+SOC4-title: An inclusive society which upholds human dignity and where the rights of all Ni-Vanuatu including women, youth, vulnerable groups and the elderly are supported, protected and promoted in our legislation and institutions
+SOC5-short: Society 5
+SOC5-title: A society where the rule of law is consistently upheld, and access to timely justice is available to everyone
+SOC6-short: Society 6
+SOC6-title: A dynamic public sector with good governance principles and strong institutions delivering the support and services expected by all citizens of Vanuatu

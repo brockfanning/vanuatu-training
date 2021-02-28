@@ -103,4 +103,76 @@ prose:
                 value: 'notapplicable'
                 translation_key: status.not_applicable
             scope: data
+      ## Source 1
+      - name: source_active_1
+        field:
+            element: checkbox
+            label: Source 1 active
+            translation_key: metadata_fields.source_active_1
+      - name: source_organisation_1
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_1
+      ## Source 2
+      - name: source_active_2
+        field:
+            element: checkbox
+            label: Source 2 active
+            translation_key: metadata_fields.source_active_1
+      - name: source_organisation_2
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_2
+      ## Source 3
+      - name: source_active_3
+        field:
+            element: checkbox
+            label: Source 3 active
+            translation_key: metadata_fields.source_active_1
+      - name: source_organisation_3
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_3
+      ## Source 4
+      - name: source_active_4
+        field:
+            element: checkbox
+            label: Source 4 active
+            translation_key: metadata_fields.source_active_1
+      - name: source_organisation_4
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_4
+      ## Source 5
+      - name: source_active_5
+        field:
+            element: checkbox
+            label: Source 5 active
+            translation_key: metadata_fields.source_active_1
+      - name: source_organisation_5
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_5
+      ## Source 6
+      - name: source_active_6
+        field:
+            element: checkbox
+            label: Source 6 active
+            translation_key: metadata_fields.source_active_1
+      - name: source_organisation_6
+        field:
+            element: text
+            label: "Organisation"
+            translation_key: metadata_fields.source_organisation_1
+            scope: source_6
   ignore: ['/scripts', '/.github']

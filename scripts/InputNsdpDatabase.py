@@ -20,12 +20,14 @@ class InputNsdpDatabase(InputBase):
 
             # Query the data.
             cursor.execute(self.get_value_sql(), [indicator_id])
+            data_rows = cursor.fetchall()
             rows = [{
                 'Year': self.fix_year(r['Year']),
                 'Units': self.fix_units(r['Value']),
                 'Series': self.fix_series(r['Proxy'], open_sdg_id),
                 'Value': self.fix_value(r['Value']),
-            } for r in cursor.fetchall()]
+            } for r in data_rows]
+
             data = None
             if len(rows) > 0:
                 data = self.create_dataframe(rows)
@@ -47,6 +49,13 @@ class InputNsdpDatabase(InputBase):
             meta['national_geographical_coverage'] = 'Vanuatu'
             meta['computation_units'] = meta['UnitofMeasure'] if 'UnitofMeasure' in meta else None
 
+            sources = set([r['Source'] for r in data_rows])
+            num = 1
+            for source in sources:
+                meta['source_active_' + str(num)] = True
+                meta['source_organisation_' + str(num)] = source
+                num += 1
+
             # Create the indicator.
             self.add_indicator(open_sdg_id, data=data, meta=meta, name=name, options=indicator_options)
 
@@ -54,7 +63,7 @@ class InputNsdpDatabase(InputBase):
         return "SELECT * FROM nsdpindicator"
 
     def get_value_sql(self):
-        return "SELECT r.Year, r.Value, d.Proxy FROM nsdpdata AS d JOIN nsdpyearvalue AS r ON d.DataID = r.Data_ID WHERE d.IndicatorID = %s AND r.Value != 'NA'"
+        return "SELECT r.Year, r.Value, r.Source, d.Proxy FROM nsdpdata AS d JOIN nsdpyearvalue AS r ON d.DataID = r.Data_ID WHERE d.IndicatorID = %s AND r.Value != 'NA'"
 
     def get_metadata_sql(self):
         return "SELECT * FROM nsdpmetadata WHERE NSDPIndicatorID = %s"

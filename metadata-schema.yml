@@ -9,6 +9,11 @@ prose:
             element: text
             translation_key: "Pillar name"
             scope: national
+      - name: "goal_name"
+        field:
+            element: text
+            translation_key: "Goal name"
+            scope: national
       - name: "indicator_name"
         field:
             element: text

@@ -39,7 +39,10 @@ class InputNsdpDatabase(InputBase):
             # Calculate some settings.
             meta['indicator_number'] = open_sdg_id
             meta['goal_number'] = open_sdg_id.split('-')[0]
+            meta['goal_name'] = 'global_goals.' + meta['goal_number'] + '-title'
             meta['target_number'] = open_sdg_id.split('-')[0] + '-' + open_sdg_id.split('-')[1]
+            meta['target_name'] = 'global_targets.' + meta['target_number'] + '-title'
+            meta['indicator_name'] = 'indicators.' + open_sdg_id + '-title'
             meta['graph_type'] = 'bar'
             meta['national_geographical_coverage'] = 'Vanuatu'
             meta['computation_units'] = meta['UnitofMeasure'] if 'UnitofMeasure' in meta else None
@@ -62,6 +65,11 @@ class InputNsdpDatabase(InputBase):
     def fix_value(self, value):
         value = value.replace('%', '')
         value = value.replace(',', '')
+        value = value.replace('VUV', '')
+        value = value.strip()
+        if '/' in value:
+            parts = value.split('/')
+            return float(parts[0]) / float(parts[1])
         try:
             return int(value)
         except:
@@ -77,6 +85,8 @@ class InputNsdpDatabase(InputBase):
     def fix_units(self, value):
         if '%' in value:
             return 'Percent'
+        if 'VUV' in value:
+            return 'VUV'
         return 'Total'
 
     def fix_series(self, proxy, indicator_id):

@@ -1,2 +1,4 @@
-Year,Units,Series,Value
-2013,Percent,,72
+Year,Units,Series,Sex,Value
+2013,Percent,,,72
+2013,Percent,,Female,36
+2013,Percent,,Male,36

@@ -16,7 +16,7 @@ class InputNsdpDatabase(InputBase):
         for indicator in cursor.fetchall():
             indicator_id = indicator['NSDPIndicatorCode']
             open_sdg_id = self.fix_indicator_id(indicator_id)
-            name = indicator['NSDPIndicator']
+            name = self.fix_indicator_name(indicator['NSDPIndicator'], indicator['NSDPIndicatorCode'])
 
             # Query the data.
             cursor.execute(self.get_value_sql(), [indicator_id])
@@ -83,3 +83,6 @@ class InputNsdpDatabase(InputBase):
         if proxy:
             return 'PROXY-' + indicator_id
         return ''
+
+    def fix_indicator_name(self, name, code):
+        return name.replace(code, '').strip().strip('.')

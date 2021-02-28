@@ -7,31 +7,31 @@
         
         {
           "id": "ECO1-1-1",
-          "title": "ECO 1.1.1 Change in underlying inflation rate (CPI analysis)",
+          "title": "Change in underlying inflation rate (CPI analysis)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO1-1-2",
-          "title": "ECO 1.1.2 GDP Growth Rate (annual/trends)",
+          "title": "GDP Growth Rate (annual/trends)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO1-2-1",
-          "title": "ECO 1.2.1 Change in government revenue (GFS Tables)",
+          "title": "Change in government revenue (GFS Tables)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO1-3-1",
-          "title": "ECO 1.3.1 Change in national budget position (deficit/surplus) (GFS Tables)",
+          "title": "Change in national budget position (deficit/surplus) (GFS Tables)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-3-1",
@@ -39,7 +39,7 @@
         },
         {
           "id": "ECO1-3-2",
-          "title": "ECO 1.3.2 Debt ratio to GDP (inclusive of SOE generated debt)",
+          "title": "Debt ratio to GDP (inclusive of SOE generated debt)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-3-2",
@@ -47,7 +47,7 @@
         },
         {
           "id": "ECO1-4-1",
-          "title": "ECO 1.4.1 Value and volume of national trade/merchandise trade",
+          "title": "Value and volume of national trade/merchandise trade",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-4-1",
@@ -55,7 +55,7 @@
         },
         {
           "id": "ECO1-4-2",
-          "title": "ECO 1.4.2 Current Accounts balance change",
+          "title": "Current Accounts balance change",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-4-2",
@@ -63,7 +63,7 @@
         },
         {
           "id": "ECO1-5-1",
-          "title": "ECO 1.5.1 Benefits/value accrued through various trade agreements",
+          "title": "Benefits/value accrued through various trade agreements",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-5-1",
@@ -71,7 +71,7 @@
         },
         {
           "id": "ECO1-5-2",
-          "title": "ECO 1.5.2 Trade by trade agreement (value)",
+          "title": "Trade by trade agreement (value)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-5-2",
@@ -79,7 +79,7 @@
         },
         {
           "id": "ECO1-5-3",
-          "title": "ECO 1.5.3 Balance of trade by major partner countries",
+          "title": "Balance of trade by major partner countries",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-5-3",
@@ -87,7 +87,7 @@
         },
         {
           "id": "ECO1-6-1",
-          "title": "ECO 1.6.1 Trade agreement analysis reports",
+          "title": "Trade agreement analysis reports",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-6-1",
@@ -95,7 +95,7 @@
         },
         {
           "id": "ECO1-6-2",
-          "title": "ECO 1.6.2 Total estimated value of trade agreement as proportion of GDP",
+          "title": "Total estimated value of trade agreement as proportion of GDP",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-6-2",
@@ -103,7 +103,7 @@
         },
         {
           "id": "ECO1-7-1",
-          "title": "ECO 1.7.1 Level of production of major commodities to include cocoa and copra",
+          "title": "Level of production of major commodities to include cocoa and copra",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-7-1",
@@ -111,7 +111,7 @@
         },
         {
           "id": "ECO1-7-2",
-          "title": "ECO 1.7.2 Change in volume of business licenses issued to Ni-Vanuatu",
+          "title": "Change in volume of business licenses issued to Ni-Vanuatu",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-7-2",
@@ -119,7 +119,7 @@
         },
         {
           "id": "ECO1-8-1",
-          "title": "ECO 1.8.1 Total number of new users of financial services annual, acknowledging pop growth (number accounts opening/year)",
+          "title": "Total number of new users of financial services annual, acknowledging pop growth (number accounts opening/year)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-8-1",
@@ -127,7 +127,7 @@
         },
         {
           "id": "ECO1-8-2",
-          "title": "ECO 1.8.2 Interest Rate level (average bank rate)",
+          "title": "Interest Rate level (average bank rate)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-8-2",
@@ -135,7 +135,7 @@
         },
         {
           "id": "ECO1-8-3",
-          "title": "ECO 1.8.3 Deposit ratios",
+          "title": "Deposit ratios",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-8-3",
@@ -143,7 +143,7 @@
         },
         {
           "id": "ECO1-9-1",
-          "title": "ECO 1.9.1 Proportion of population with an understanding of very basic principles of personal financial accounting",
+          "title": "Proportion of population with an understanding of very basic principles of personal financial accounting",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO1-9-1",
@@ -154,20 +154,20 @@
   {
     "goal": {
       "id": "ECO2",
-      "title": "global_goals.ECO2-title",
+      "title": "Sustainable and well-maintained infrastructure and services for all, through inclusive and effective partnerships",
       "indicators": [
         
         {
           "id": "ECO2-1-1",
-          "title": "ECO 2.1.1 Proportion of households sourcing energy for lighting from renewable sources",
+          "title": "Proportion of households sourcing energy for lighting from renewable sources",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO2-1-2",
-          "title": "ECO 2.1.2 Total number of mini-grid renewable energy systems in rural communities by province",
+          "title": "Total number of mini-grid renewable energy systems in rural communities by province",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-1-2",
@@ -175,23 +175,23 @@
         },
         {
           "id": "ECO2-2-1",
-          "title": "ECO 2.2.1 Proportion of population with reliable access to safe drinking water",
+          "title": "Proportion of population with reliable access to safe drinking water",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO2-2-2",
-          "title": "ECO 2.2.2 Proportion of population with reliable access to improved sanitation facilities",
+          "title": "Proportion of population with reliable access to improved sanitation facilities",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO2-3-1",
-          "title": "ECO 2.3.1 Proportion of new buildings in compliance with the building code",
+          "title": "Proportion of new buildings in compliance with the building code",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-3-1",
@@ -199,7 +199,7 @@
         },
         {
           "id": "ECO2-3-2",
-          "title": "ECO 2.3.2 Proportion of existing buildings repaired in compliance with the building code",
+          "title": "Proportion of existing buildings repaired in compliance with the building code",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-3-2",
@@ -207,7 +207,7 @@
         },
         {
           "id": "ECO2-4-1",
-          "title": "ECO 2.4.1 Proportion of established road and building standards implemented",
+          "title": "Proportion of established road and building standards implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-4-1",
@@ -215,7 +215,7 @@
         },
         {
           "id": "ECO2-5-1",
-          "title": "ECO 2.5.1 Variance from approved asset management budget",
+          "title": "Variance from approved asset management budget",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-5-1",
@@ -223,11 +223,11 @@
         },
         {
           "id": "ECO2-6-1",
-          "title": "ECO 2.6.1 Proportion of population with access to transport by road, sea and air",
+          "title": "Proportion of population with access to transport by road, sea and air",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO2-7-0",
@@ -239,7 +239,7 @@
         },
         {
           "id": "ECO2-8-1",
-          "title": "ECO 2.8.1 Proportion of procurement contracts issued for Island Based Contractors, Community Based Contractors",
+          "title": "Proportion of procurement contracts issued for Island Based Contractors, Community Based Contractors",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-8-1",
@@ -247,15 +247,15 @@
         },
         {
           "id": "ECO2-9-1",
-          "title": "ECO 2.9.1 % of population having access to broadband connection",
+          "title": "% of population having access to broadband connection",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO2-9-2",
-          "title": "ECO 2.9.2 Annual change in total number of users of on-line government services",
+          "title": "Annual change in total number of users of on-line government services",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO2-9-2",
@@ -266,7 +266,7 @@
   {
     "goal": {
       "id": "ECO3",
-      "title": "global_goals.ECO3-title",
+      "title": "A strong rural economy that creates opportunities, enables the development of rural communities and increasingly contributes to national prosperity",
       "indicators": [
         
         {
@@ -279,7 +279,7 @@
         },
         {
           "id": "ECO3-1-2",
-          "title": "ECO 3.1.2 Number of businesses participating in the annual agri-tourism festival by sector",
+          "title": "Number of businesses participating in the annual agri-tourism festival by sector",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-1-2",
@@ -287,15 +287,15 @@
         },
         {
           "id": "ECO3-2-1",
-          "title": "ECO 3.2.1 Average annual household income from tourism",
+          "title": "Average annual household income from tourism",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO3-2-2",
-          "title": "ECO 3.2.2.Annual change in tourism by air and sea arrivals",
+          "title": "Annual change in tourism by air and sea arrivals",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-2-2",
@@ -303,7 +303,7 @@
         },
         {
           "id": "ECO3-2-3",
-          "title": "ECO 3.2.3 Proportion of visitors traveling to outer islands",
+          "title": "Proportion of visitors traveling to outer islands",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-2-3",
@@ -311,15 +311,15 @@
         },
         {
           "id": "ECO3-3-1",
-          "title": "ECO 3.3.1 Rate of Return to investments in rural infrastructure",
+          "title": "Rate of Return to investments in rural infrastructure",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO3-3-2",
-          "title": "ECO 3.3.2 Capacity utilisation rate: Manufacturing",
+          "title": "Capacity utilisation rate: Manufacturing",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-3-2",
@@ -327,7 +327,7 @@
         },
         {
           "id": "ECO3-3-3",
-          "title": "ECO 3.3.3 Total number of standard operational storage and processing facilities located in rural areas by province",
+          "title": "Total number of standard operational storage and processing facilities located in rural areas by province",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-3-3",
@@ -335,7 +335,7 @@
         },
         {
           "id": "ECO3-4-1",
-          "title": "ECO 3.4.1 Total annual number of agricultural extension services per capita by province",
+          "title": "Total annual number of agricultural extension services per capita by province",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-4-1",
@@ -343,7 +343,7 @@
         },
         {
           "id": "ECO3-4-2",
-          "title": "ECO 3.4.2 Total number of rural producer cooperatives registered by province",
+          "title": "Total number of rural producer cooperatives registered by province",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-4-2",
@@ -351,7 +351,7 @@
         },
         {
           "id": "ECO3-5-1",
-          "title": "ECO 3.5.1 Total annual number of rural economic analysis reports published",
+          "title": "Total annual number of rural economic analysis reports published",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-5-1",
@@ -359,7 +359,7 @@
         },
         {
           "id": "ECO3-6-1",
-          "title": "ECO 3.6.1 Average traveling distance to nearest school, health facility, police post by province",
+          "title": "Average traveling distance to nearest school, health facility, police post by province",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-6-1",
@@ -367,7 +367,7 @@
         },
         {
           "id": "ECO3-6-2",
-          "title": "ECO 3.6.2 Number of controlled waste disposal facilities",
+          "title": "Number of controlled waste disposal facilities",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-6-2",
@@ -378,28 +378,28 @@
   {
     "goal": {
       "id": "ECO4",
-      "title": "global_goals.ECO4-title",
+      "title": "An enabling business environment, creating opportunities and employment for entrepreneurs throughout Vanuatu",
       "indicators": [
         
         {
           "id": "ECO4-1-1",
-          "title": "ECO 4.1.1 Growth in Gross Fixed Capital Formation",
+          "title": "Growth in Gross Fixed Capital Formation",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO4-2-1",
-          "title": "ECO 4.2.1 Proportion of rural households engaged in trade with family in urban centres",
+          "title": "Proportion of rural households engaged in trade with family in urban centres",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO4-3-1",
-          "title": "ECO 4.3.1 Total number of processed local products produced per annum for domestic consumption and export",
+          "title": "Total number of processed local products produced per annum for domestic consumption and export",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-3-1",
@@ -415,7 +415,7 @@
         },
         {
           "id": "ECO4-4-1",
-          "title": "ECO 4.4.1 Proportion of registered hospitality institutions with rooms and services equipped with energy efficient lighting and appliances",
+          "title": "Proportion of registered hospitality institutions with rooms and services equipped with energy efficient lighting and appliances",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-4-1",
@@ -423,7 +423,7 @@
         },
         {
           "id": "ECO4-5-1",
-          "title": "ECO 4.5.1 Employment cost index (ECI)",
+          "title": "Employment cost index (ECI)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-5-1",
@@ -431,15 +431,15 @@
         },
         {
           "id": "ECO4-6-1",
-          "title": "ECO 4.6.1 Labour force participation by sector",
+          "title": "Labour force participation by sector",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO4-6-2",
-          "title": "ECO 4.6.2 Total annual number of validated complaints registered with Labour Union",
+          "title": "Total annual number of validated complaints registered with Labour Union",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-6-2",
@@ -447,15 +447,15 @@
         },
         {
           "id": "ECO4-7-1",
-          "title": "ECO 4.7.1 Change in total number of individuals participating in seasonal work programmes",
+          "title": "Change in total number of individuals participating in seasonal work programmes",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ECO4-7-2",
-          "title": "ECO 4.7.2 Labour market flows",
+          "title": "Labour market flows",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-7-2",
@@ -463,7 +463,7 @@
         },
         {
           "id": "ECO4-7-3",
-          "title": "ECO 4.7.3 Total annual remittances as a proportion of GDP",
+          "title": "Total annual remittances as a proportion of GDP",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-7-3",
@@ -471,7 +471,7 @@
         },
         {
           "id": "ECO4-8-1",
-          "title": "ECO 4.8.1 Total annual number of new businesses registered by type",
+          "title": "Total annual number of new businesses registered by type",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-8-1",
@@ -479,7 +479,7 @@
         },
         {
           "id": "ECO4-9-1",
-          "title": "ECO 4.9.1 Total number of public/private joint ventures in operation",
+          "title": "Total number of public/private joint ventures in operation",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO4-9-1",
@@ -495,15 +495,15 @@
         
         {
           "id": "ENV1-1-1",
-          "title": "ENV 1.1.1 Proportion of households engaged in production of food for own consumption",
+          "title": "Proportion of households engaged in production of food for own consumption",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV1-1-2",
-          "title": "ENV 1.1.2 Up to date data on primary production (agriculture, livestock, forestry, fisheries, biosecurity) available for analysis and informed decision-making and reporting",
+          "title": "Up to date data on primary production (agriculture, livestock, forestry, fisheries, biosecurity) available for analysis and informed decision-making and reporting",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-1-2",
@@ -511,15 +511,15 @@
         },
         {
           "id": "ENV1-1-3",
-          "title": "ENV 1.1.3 Average incidence of food poverty at the household level (Food Poverty Line)",
+          "title": "Average incidence of food poverty at the household level (Food Poverty Line)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV1-2-1",
-          "title": "ENV 1.2.1 National food guidelines directing food security and nutrition promotional activities (including aelan kaikai) completed and operational",
+          "title": "National food guidelines directing food security and nutrition promotional activities (including aelan kaikai) completed and operational",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-2-1",
@@ -527,7 +527,7 @@
         },
         {
           "id": "ENV1-3-1",
-          "title": "ENV 1.3.1 Total annual volume of imports of food and products targeted by DARD as those that can be produced domestically (including ‘value-added products)",
+          "title": "Total annual volume of imports of food and products targeted by DARD as those that can be produced domestically (including ‘value-added products)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-3-1",
@@ -535,7 +535,7 @@
         },
         {
           "id": "ENV1-3-2",
-          "title": "ENV 1.3.2 Domestic food price level",
+          "title": "Domestic food price level",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-3-2",
@@ -543,7 +543,7 @@
         },
         {
           "id": "ENV1-3-3",
-          "title": "ENV 1.3.3 Food Price Inflation Rate or Food Price Index compared to the national consumer price index (how much are prices for food going up or down, relative to all prices in the country-based on VNSO data)",
+          "title": "Food Price Inflation Rate or Food Price Index compared to the national consumer price index (how much are prices for food going up or down, relative to all prices in the country-based on VNSO data)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-3-3",
@@ -551,7 +551,7 @@
         },
         {
           "id": "ENV1-4-1",
-          "title": "ENV 1.4.1Total FADs per 1,000 population by province",
+          "title": "Total FADs per 1,000 population by province",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-4-1",
@@ -559,7 +559,7 @@
         },
         {
           "id": "ENV1-4-2",
-          "title": "ENV 1.4.2 Total number of people receiving training in food storage and preservation per year in MALFFB led, NGO or partnered initiatives",
+          "title": "Total number of people receiving training in food storage and preservation per year in MALFFB led, NGO or partnered initiatives",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-4-2",
@@ -567,7 +567,7 @@
         },
         {
           "id": "ENV1-4-3",
-          "title": "ENV 1.4.3 Establishment of land use capability mapping systems to determine which crops and farming systems are best suited to different areas",
+          "title": "Establishment of land use capability mapping systems to determine which crops and farming systems are best suited to different areas",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-4-3",
@@ -575,7 +575,7 @@
         },
         {
           "id": "ENV1-5-1",
-          "title": "ENV 1.5.1 Proportion of producers across the productive sector that have undergone Agro-Met training",
+          "title": "Proportion of producers across the productive sector that have undergone Agro-Met training",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-5-1",
@@ -583,7 +583,7 @@
         },
         {
           "id": "ENV1-5-2",
-          "title": "ENV 1.5.2 Crop diversity index with a focus on fruit and vegetables (average number of varieties planted of crops by province)",
+          "title": "Crop diversity index with a focus on fruit and vegetables (average number of varieties planted of crops by province)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-5-2",
@@ -591,7 +591,7 @@
         },
         {
           "id": "ENV1-5-3",
-          "title": "ENV 1.5.3 Proportion of farmers involved in integrated farming practices",
+          "title": "Proportion of farmers involved in integrated farming practices",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV1-5-3",
@@ -602,12 +602,12 @@
   {
     "goal": {
       "id": "ENV2",
-      "title": "global_goals.ENV2-title",
+      "title": "An economy which fosters sustainable growth and development through low impact industries and modern technologies to ensure the well-being of future generations",
       "indicators": [
         
         {
           "id": "ENV2-1-1",
-          "title": "ENV 2.1.1 Proportion of 'blue-green growth friendly' national policies fully implemented",
+          "title": "Proportion of 'blue-green growth friendly' national policies fully implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-1-1",
@@ -615,7 +615,7 @@
         },
         {
           "id": "ENV2-2-1",
-          "title": "ENV 2.2.1 Number of development projects complying with EIA requirements",
+          "title": "Number of development projects complying with EIA requirements",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-2-1",
@@ -623,7 +623,7 @@
         },
         {
           "id": "ENV2-2-2",
-          "title": "ENV 2.2.2 No. of environmental guidelines developed",
+          "title": "No. of environmental guidelines developed",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-2-2",
@@ -631,7 +631,7 @@
         },
         {
           "id": "ENV2-3-1",
-          "title": "ENV 2.3.1 Proportion of all imported lighting and refrigeration appliances that meet high energy efficiency standards",
+          "title": "Proportion of all imported lighting and refrigeration appliances that meet high energy efficiency standards",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-3-1",
@@ -639,15 +639,15 @@
         },
         {
           "id": "ENV2-3-2",
-          "title": "ENV 2.3.2 Proportion of households using renewable energy technology as main source of lighting",
+          "title": "Proportion of households using renewable energy technology as main source of lighting",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV2-3-3",
-          "title": "ENV 2.3.3 Percentage of grid-based electricity generated from renewable energy sources",
+          "title": "Percentage of grid-based electricity generated from renewable energy sources",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-3-3",
@@ -655,7 +655,7 @@
         },
         {
           "id": "ENV2-4-1",
-          "title": "ENV 2.4.1 Number of controlled wasted disposal facilities",
+          "title": "Number of controlled wasted disposal facilities",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-4-1",
@@ -663,7 +663,7 @@
         },
         {
           "id": "ENV2-4-2",
-          "title": "ENV 2.4.2 Proportion of vehicles that comply with emission standards",
+          "title": "Proportion of vehicles that comply with emission standards",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-4-2",
@@ -671,7 +671,7 @@
         },
         {
           "id": "ENV2-4-3",
-          "title": "ENV 2.4.3 Proportion of revised National Waste Management Strategy and Action Plan implemented",
+          "title": "Proportion of revised National Waste Management Strategy and Action Plan implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-4-3",
@@ -679,7 +679,7 @@
         },
         {
           "id": "ENV2-5-1",
-          "title": "ENV 2.5.1 Proportion of targets met in National Environment Policy and Implementation Plan 2016-2030",
+          "title": "Proportion of targets met in National Environment Policy and Implementation Plan 2016-2030",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-5-1",
@@ -687,7 +687,7 @@
         },
         {
           "id": "ENV2-5-2",
-          "title": "ENV 2.5.2 Proportion of environmental obligations within international conventions and treaties met",
+          "title": "Proportion of environmental obligations within international conventions and treaties met",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-5-2",
@@ -695,7 +695,7 @@
         },
         {
           "id": "ENV2-6-1",
-          "title": "ENV 2.6.1 Proportion of funding requested by DEPC in support of sustainable development approved through NPP/percentage of government expenditure for environmental activities",
+          "title": "Proportion of funding requested by DEPC in support of sustainable development approved through NPP/percentage of government expenditure for environmental activities",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-6-1",
@@ -703,7 +703,7 @@
         },
         {
           "id": "ENV2-6-2",
-          "title": "ENV 2.6.2 Amount deposited in the Environmental Trust Fund",
+          "title": "Amount deposited in the Environmental Trust Fund",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-6-2",
@@ -714,12 +714,12 @@
   {
     "goal": {
       "id": "ENV3",
-      "title": "global_goals.ENV3-title",
+      "title": "A strong and resilient nation in the face of climate change and disaster risks posed by natural and man-made hazards",
       "indicators": [
         
         {
           "id": "ENV3-1-1",
-          "title": "ENV 3.1.1 Proportion of government ministries with policies, budgets, and legislation for CC & DRM",
+          "title": "Proportion of government ministries with policies, budgets, and legislation for CC & DRM",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-1-1",
@@ -727,7 +727,7 @@
         },
         {
           "id": "ENV3-1-2",
-          "title": "ENV 3.1.2 Institutional strengthening of NAB, Department of Climate Change and other MoCC departments",
+          "title": "Institutional strengthening of NAB, Department of Climate Change and other MoCC departments",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-1-2",
@@ -735,7 +735,7 @@
         },
         {
           "id": "ENV3-1-3",
-          "title": "ENV 3.1.3 Alignment of sector stakeholders’ programs and CC & DRM policies and legislation",
+          "title": "Alignment of sector stakeholders’ programs and CC & DRM policies and legislation",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-1-3",
@@ -743,7 +743,7 @@
         },
         {
           "id": "ENV3-2-1",
-          "title": "ENV 3.2.1 Establishment of multi-hazard warning systems with maintenance plans in place",
+          "title": "Establishment of multi-hazard warning systems with maintenance plans in place",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-2-1",
@@ -751,15 +751,15 @@
         },
         {
           "id": "ENV3-2-2",
-          "title": "ENV 3.2.2 Proportion of population with access to technologies that convey early warnings",
+          "title": "Proportion of population with access to technologies that convey early warnings",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV3-2-3",
-          "title": "ENV 3.2.3  Increased knowledge and scientific research in atmospheric and earth sciences",
+          "title": "Increased knowledge and scientific research in atmospheric and earth sciences",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-2-3",
@@ -767,7 +767,7 @@
         },
         {
           "id": "ENV3-3-1",
-          "title": "ENV 3.3.1 Number of support plans available to communities for coordination, planning, preparedness, response and recovery",
+          "title": "Number of support plans available to communities for coordination, planning, preparedness, response and recovery",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-3-1",
@@ -775,7 +775,7 @@
         },
         {
           "id": "ENV3-3-2",
-          "title": "ENV 3.3.2 Percentage of climate change and disaster affected communities with durable solutions",
+          "title": "Percentage of climate change and disaster affected communities with durable solutions",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-3-2",
@@ -783,7 +783,7 @@
         },
         {
           "id": "ENV3-3-3",
-          "title": "ENV 3.3.3 Number of multi-hazard and risk maps to improve Post-Disaster Needs Assessment",
+          "title": "Number of multi-hazard and risk maps to improve Post-Disaster Needs Assessment",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-3-3",
@@ -791,7 +791,7 @@
         },
         {
           "id": "ENV3-4-1",
-          "title": "ENV 3.4.1 Percentage of public schools using the climate change and disaster risk reduction modules in national curriculum at all levels",
+          "title": "Percentage of public schools using the climate change and disaster risk reduction modules in national curriculum at all levels",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-4-1",
@@ -799,7 +799,7 @@
         },
         {
           "id": "ENV3-4-2",
-          "title": "ENV 3.4.2 Number of communication and partnership activities and awareness programs established targeting issues such as climate change adaptation and resilience",
+          "title": "Number of communication and partnership activities and awareness programs established targeting issues such as climate change adaptation and resilience",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-4-2",
@@ -807,7 +807,7 @@
         },
         {
           "id": "ENV3-5-1",
-          "title": "ENV 3.5.1 Proportion of annual spending on climate change adaptation and disaster risk management funded with budget support from donor partners to the government",
+          "title": "Proportion of annual spending on climate change adaptation and disaster risk management funded with budget support from donor partners to the government",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-5-1",
@@ -815,7 +815,7 @@
         },
         {
           "id": "ENV3-5-2",
-          "title": "ENV 3.5.2 Number of climate and disaster finance funds to which Vanuatu is formally accredited",
+          "title": "Number of climate and disaster finance funds to which Vanuatu is formally accredited",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-5-2",
@@ -823,7 +823,7 @@
         },
         {
           "id": "ENV3-5-3",
-          "title": "ENV 3.5.3 Amount of climate and disaster finance used for community programs and activities through external support",
+          "title": "Amount of climate and disaster finance used for community programs and activities through external support",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV3-5-3",
@@ -834,12 +834,12 @@
   {
     "goal": {
       "id": "ENV4",
-      "title": "global_goals.ENV4-title",
+      "title": "A nation which utilises and sustainably manages our land, water and natural resources",
       "indicators": [
         
         {
           "id": "ENV4-1-1",
-          "title": "ENV 4.1.1 Proportion of declared physical planning areas that have a physical plan",
+          "title": "Proportion of declared physical planning areas that have a physical plan",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-1-1",
@@ -847,7 +847,7 @@
         },
         {
           "id": "ENV4-1-2",
-          "title": "ENV 4.1.2  Proportion of directives of the national land use planning policy implemented",
+          "title": "Proportion of directives of the national land use planning policy implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-1-2",
@@ -855,7 +855,7 @@
         },
         {
           "id": "ENV4-2-1",
-          "title": "ENV 4.2.1 Number of declared Water Protection Zones",
+          "title": "Number of declared Water Protection Zones",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-2-1",
@@ -863,7 +863,7 @@
         },
         {
           "id": "ENV4-2-2",
-          "title": "ENV 4.2.2 Establishment of GIS mapping relevant to the management of forest activities",
+          "title": "Establishment of GIS mapping relevant to the management of forest activities",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-2-2",
@@ -871,7 +871,7 @@
         },
         {
           "id": "ENV4-3-1",
-          "title": "ENV 4.3.1 Proportion of extraction activities complying with EIA requirements",
+          "title": "Proportion of extraction activities complying with EIA requirements",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-3-1",
@@ -879,7 +879,7 @@
         },
         {
           "id": "ENV4-4-1",
-          "title": "ENV 4.4.1 Level of compliance by Vanuatu with respect to its national fishing fleet within the Regional Fisheries Management Organisations",
+          "title": "Level of compliance by Vanuatu with respect to its national fishing fleet within the Regional Fisheries Management Organisations",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-4-1",
@@ -887,7 +887,7 @@
         },
         {
           "id": "ENV4-4-2",
-          "title": "ENV 4.4.2 Number of integrated coastal management plans developed and implemented",
+          "title": "Number of integrated coastal management plans developed and implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-4-2",
@@ -895,7 +895,7 @@
         },
         {
           "id": "ENV4-5-1",
-          "title": "ENV 4.5.1 Total number of approved Fisheries Management Plans for designated fisheries",
+          "title": "Total number of approved Fisheries Management Plans for designated fisheries",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-5-1",
@@ -903,7 +903,7 @@
         },
         {
           "id": "ENV4-5-2",
-          "title": "ENV 4.5.2 Number of commercial sand mines",
+          "title": "Number of commercial sand mines",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-5-2",
@@ -911,7 +911,7 @@
         },
         {
           "id": "ENV4-5-3",
-          "title": "ENV 4.5.3 Number of places where detailed geo-scientific information has been collected",
+          "title": "Number of places where detailed geo-scientific information has been collected",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-5-3",
@@ -919,7 +919,7 @@
         },
         {
           "id": "ENV4-6-1",
-          "title": "ENV 4.6.1 Annual estimated area (square km) of reforestation and rehabilitation",
+          "title": "Annual estimated area (square km) of reforestation and rehabilitation",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-6-1",
@@ -927,7 +927,7 @@
         },
         {
           "id": "ENV4-6-2",
-          "title": "ENV 4.6.2 Proportion of licensees harvesting within their allocated quota or Proportion of licensee operations being monitored",
+          "title": "Proportion of licensees harvesting within their allocated quota or Proportion of licensee operations being monitored",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-6-2",
@@ -935,7 +935,7 @@
         },
         {
           "id": "ENV4-7-1",
-          "title": "ENV 4.7.1 Total annual outreach and awareness activities undertaken by or in partnership with the DEPC",
+          "title": "Total annual outreach and awareness activities undertaken by or in partnership with the DEPC",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV4-7-1",
@@ -946,12 +946,12 @@
   {
     "goal": {
       "id": "ENV5",
-      "title": "global_goals.ENV5-title",
+      "title": "A nation committed to ensuring the conservation and sustainable management of our biodiversity and ecosystems",
       "indicators": [
         
         {
           "id": "ENV5-1-1",
-          "title": "ENV 5.1.1 Proportion of NBSAP and NISSAP targets met",
+          "title": "Proportion of NBSAP and NISSAP targets met",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-1-1",
@@ -959,7 +959,7 @@
         },
         {
           "id": "ENV5-1-2",
-          "title": "ENV 5.1.2 Total number of environmental guidelines in place",
+          "title": "Total number of environmental guidelines in place",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-1-2",
@@ -967,7 +967,7 @@
         },
         {
           "id": "ENV5-2-1",
-          "title": "ENV 5.2.1 Total number of registered CCAs",
+          "title": "Total number of registered CCAs",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-2-1",
@@ -975,7 +975,7 @@
         },
         {
           "id": "ENV5-2-2",
-          "title": "ENV 5.2.2 Proportion of community management committees implementing their CCA management plan",
+          "title": "Proportion of community management committees implementing their CCA management plan",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-2-2",
@@ -983,15 +983,15 @@
         },
         {
           "id": "ENV5-3-1",
-          "title": "ENV 5.3.1 Proportion of population with knowledge of the names of local flora and fauna",
+          "title": "Proportion of population with knowledge of the names of local flora and fauna",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "ENV5-3-2",
-          "title": "ENV 5.3.2 Number of threatened species legally protected",
+          "title": "Number of threatened species legally protected",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-3-2",
@@ -999,7 +999,7 @@
         },
         {
           "id": "ENV5-4-1",
-          "title": "ENV 5.4.1 Proportion of incoming planes and sea vessels cleared through Biosecurity annually",
+          "title": "Proportion of incoming planes and sea vessels cleared through Biosecurity annually",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-4-1",
@@ -1007,7 +1007,7 @@
         },
         {
           "id": "ENV5-5-1",
-          "title": "ENV 5.5.1 Number of model schools implementing environmental programmes",
+          "title": "Number of model schools implementing environmental programmes",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-5-1",
@@ -1015,7 +1015,7 @@
         },
         {
           "id": "ENV5-6-1",
-          "title": "ENV 5.6.1 Proportion of government agencies using a central information sharing system for environment data",
+          "title": "Proportion of government agencies using a central information sharing system for environment data",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV5-6-1",
@@ -1031,23 +1031,23 @@
         
         {
           "id": "SOC1-1-1",
-          "title": "SOC 1.1.1 Proportion of population speaking indigenous language daily",
+          "title": "Proportion of population speaking indigenous language daily",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-1-2",
-          "title": "SOC 1.1.2 Proportion of population first language learned indigenous",
+          "title": "Proportion of population first language learned indigenous",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-1-3",
-          "title": "SOC 1.1.3 Proportion of endangered languages documented",
+          "title": "Proportion of endangered languages documented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-1-3",
@@ -1055,31 +1055,31 @@
         },
         {
           "id": "SOC1-2-1",
-          "title": "SOC 1.2.1 Proportion of population with knowledge of traditional stories, dances, songs, and games",
+          "title": "Proportion of population with knowledge of traditional stories, dances, songs, and games",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-2-2",
-          "title": "SOC 1.2.2 Proportion of population possessing common and basic traditional production skills related to weaving, transport, housing, farming, food preparation",
+          "title": "Proportion of population possessing common and basic traditional production skills related to weaving, transport, housing, farming, food preparation",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-2-3",
-          "title": "SOC 1.2.3 Proportion of population with ability to 1: produce herbal medicines, and 2: massage",
+          "title": "Proportion of population with ability to 1: produce herbal medicines, and 2: massage",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-2-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-3-1",
-          "title": "SOC 1.3.1 Total number of sites with cultural and/or historical significance newly identified, registered and preserved",
+          "title": "Total number of sites with cultural and/or historical significance newly identified, registered and preserved",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-3-1",
@@ -1087,7 +1087,7 @@
         },
         {
           "id": "SOC1-4-1",
-          "title": "SOC 1.4.1 Proportion of bills that are reviewed by MCC prior to parliamentary debate",
+          "title": "Proportion of bills that are reviewed by MCC prior to parliamentary debate",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-4-1",
@@ -1095,7 +1095,7 @@
         },
         {
           "id": "SOC1-5-1",
-          "title": "SOC 1.5.1 Proportion of national formal and informal educational institutions and health facilities with religious affiliation and support",
+          "title": "Proportion of national formal and informal educational institutions and health facilities with religious affiliation and support",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-5-1",
@@ -1103,7 +1103,7 @@
         },
         {
           "id": "SOC1-6-1",
-          "title": "SOC 1.6.1 Proportion of public schools using the culture and heritage modules in national curriculum at all levels",
+          "title": "Proportion of public schools using the culture and heritage modules in national curriculum at all levels",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-6-1",
@@ -1111,7 +1111,7 @@
         },
         {
           "id": "SOC1-6-2",
-          "title": "SOC 1.6.2 Proportion of cultural heritage materials in the national curriculum at all levels",
+          "title": "Proportion of cultural heritage materials in the national curriculum at all levels",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-6-2",
@@ -1119,31 +1119,31 @@
         },
         {
           "id": "SOC1-7-1",
-          "title": "SOC 1.7.1 Proportion of population with free access to traditional lands, forest and marine resources",
+          "title": "Proportion of population with free access to traditional lands, forest and marine resources",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC1-7-2",
-          "title": "SOC 1.7.2 Proportion of population that use traditional lands for agriculture, marine, forestry and livestock for consumption or customary purposes",
+          "title": "Proportion of population that use traditional lands for agriculture, marine, forestry and livestock for consumption or customary purposes",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC1-7-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "SOC2",
-      "title": "global_goals.SOC2-title",
+      "title": "An inclusive and equitable quality education system with life-long learning for all",
       "indicators": [
         
         {
           "id": "SOC2-1-1",
-          "title": "SOC 2.1.1 Percentage of age 6 in Yr. 1 who attended kindergarten",
+          "title": "Percentage of age 6 in Yr. 1 who attended kindergarten",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC2-1-1",
@@ -1151,7 +1151,7 @@
         },
         {
           "id": "SOC2-2-1",
-          "title": "SOC 2.2.1 Percentage of schools demonstrating effective implementation and management of school grants",
+          "title": "Percentage of schools demonstrating effective implementation and management of school grants",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC2-2-1",
@@ -1159,15 +1159,15 @@
         },
         {
           "id": "SOC2-3-1",
-          "title": "SOC 2.3.1 Percentage of students meeting literacy and numeracy standards",
+          "title": "Percentage of students meeting literacy and numeracy standards",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC2-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC2-4-1",
-          "title": "SOC 2.4.1 No. of technical and vocational schools that are certified and registered under the Vanuatu Qualifications Authority to operate",
+          "title": "No. of technical and vocational schools that are certified and registered under the Vanuatu Qualifications Authority to operate",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC2-4-1",
@@ -1178,84 +1178,84 @@
   {
     "goal": {
       "id": "SOC3",
-      "title": "global_goals.SOC3-title",
+      "title": "A healthy population that enjoys a high quality of physical, mental, spiritual and social well-being",
       "indicators": [
         
         {
           "id": "SOC3-1-1",
-          "title": "SOC 3.1.1 Number of skilled health professionals to 10,000 population",
+          "title": "Number of skilled health professionals to 10,000 population",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-1-2",
-          "title": "SOC 3.1.2 Maternal mortality ratio/Number of maternal deaths",
+          "title": "Maternal mortality ratio/Number of maternal deaths",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-1-3",
-          "title": "SOC 3.1.3 Percentage of fully functional HFs according to Role Delineation Policy",
+          "title": "Percentage of fully functional HFs according to Role Delineation Policy",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-2-1",
-          "title": "SOC 3.2.1 No. of Diabetic (NCD) related amputations",
+          "title": "No. of Diabetic (NCD) related amputations",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-2-2",
-          "title": "SOC 3.2.2 Incidence of TB (per 100,000 population)",
+          "title": "Incidence of TB (per 100,000 population)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-2-3",
-          "title": "SOC 3.2.3 Malaria annual parasite incidence rate",
+          "title": "Malaria annual parasite incidence rate",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-2-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-3-1",
-          "title": "SOC 3.3.1 Diphtheria tetanus toxoid and pertussis (DTP3) immunisation coverage among 1 year olds (%)",
+          "title": "Diphtheria tetanus toxoid and pertussis (DTP3) immunisation coverage among 1 year olds (%)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-3-2",
-          "title": "SOC 3.3.2 Prevalence of obesity in adult population",
+          "title": "Prevalence of obesity in adult population",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-3-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-3-3",
-          "title": "SOC 3.3.3 Under 5 mortality rate",
+          "title": "Under 5 mortality rate",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-4-1",
-          "title": "SOC 3.4.1 Percentage of units with current strategic plans in place that link with Health Sector Strategy",
+          "title": "Percentage of units with current strategic plans in place that link with Health Sector Strategy",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-4-1",
@@ -1263,15 +1263,15 @@
         },
         {
           "id": "SOC3-4-2",
-          "title": "SOC 3.4.2 Percentage of Corporate positions within MoH filled on permanent basis",
+          "title": "Percentage of Corporate positions within MoH filled on permanent basis",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-4-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC3-4-3",
-          "title": "SOC 3.4.3 Percentage of attributes attained based on International Health Regulation Index (IHR) Component 2",
+          "title": "Percentage of attributes attained based on International Health Regulation Index (IHR) Component 2",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC3-4-3",
@@ -1282,12 +1282,12 @@
   {
     "goal": {
       "id": "SOC4",
-      "title": "global_goals.SOC4-title",
+      "title": "An inclusive society which upholds human dignity and where the rights of all Ni-Vanuatu including women, youth, vulnerable groups and the elderly are supported, protected and promoted in our legislation and institutions",
       "indicators": [
         
         {
           "id": "SOC4-1-1",
-          "title": "SOC 4.1.1 Proportion of  government departments with gender responsive policies, legislation and programs",
+          "title": "Proportion of  government departments with gender responsive policies, legislation and programs",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-1-1",
@@ -1295,15 +1295,15 @@
         },
         {
           "id": "SOC4-1-2",
-          "title": "SOC 4.1.2 Number of decisions in which women participate",
+          "title": "Number of decisions in which women participate",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-1-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC4-1-3",
-          "title": "SOC 4.1.3 Indicators of women’s empowerment",
+          "title": "Indicators of women’s empowerment",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-1-3",
@@ -1311,23 +1311,23 @@
         },
         {
           "id": "SOC4-2-1",
-          "title": "SOC 4.2.1 Subjective Well-being indicator",
+          "title": "Subjective Well-being indicator",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-2-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC4-2-2",
-          "title": "SOC 4.2.2 Number of reported cases of violence against women, children, and vulnerable people",
+          "title": "Number of reported cases of violence against women, children, and vulnerable people",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC4-2-3",
-          "title": "SOC 4.2.3 Percentage of reported cases of violence against women, children, and vulnerable people addressed",
+          "title": "Percentage of reported cases of violence against women, children, and vulnerable people addressed",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-2-3",
@@ -1335,15 +1335,15 @@
         },
         {
           "id": "SOC4-3-1",
-          "title": "SOC 4.3.1 Proportion of population reporting some degree of disability",
+          "title": "Proportion of population reporting some degree of disability",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC4-3-2",
-          "title": "SOC 4.3.2 Percentage of public buildings and banking, employment and recreational facilities allowing access for people with disabilities",
+          "title": "Percentage of public buildings and banking, employment and recreational facilities allowing access for people with disabilities",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-3-2",
@@ -1351,7 +1351,7 @@
         },
         {
           "id": "SOC4-3-3",
-          "title": "SOC 4.3.3 Percentage of all political, community and government leadership positions have people with disability represented",
+          "title": "Percentage of all political, community and government leadership positions have people with disability represented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-3-3",
@@ -1359,7 +1359,7 @@
         },
         {
           "id": "SOC4-4-1",
-          "title": "SOC 4.4.1 Proportion of the activities of the  National Human Rights Commission (NHRC) implemented",
+          "title": "Proportion of the activities of the  National Human Rights Commission (NHRC) implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-4-1",
@@ -1367,7 +1367,7 @@
         },
         {
           "id": "SOC4-4-2",
-          "title": "SOC 4.4.2 Proportion of human rights related conventions ratified",
+          "title": "Proportion of human rights related conventions ratified",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-4-2",
@@ -1375,7 +1375,7 @@
         },
         {
           "id": "SOC4-4-3",
-          "title": "SOC 4.4.3 Proportion of laws reviewed on basis of discriminatory and gender biased principles",
+          "title": "Proportion of laws reviewed on basis of discriminatory and gender biased principles",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-4-3",
@@ -1383,7 +1383,7 @@
         },
         {
           "id": "SOC4-5-1",
-          "title": "SOC 4.5.1 Proportion of Government Offices and public facilities with ramp access or some disability friendly rating",
+          "title": "Proportion of Government Offices and public facilities with ramp access or some disability friendly rating",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-5-1",
@@ -1391,15 +1391,15 @@
         },
         {
           "id": "SOC4-6-1",
-          "title": "SOC 4.6.1 Total number of cases with children experiencing human rights violations in the following areas sexual abuse, neglect, physical abuse, exploitation, emotional abuse (disseminate by these areas) accessing support services",
+          "title": "Total number of cases with children experiencing human rights violations in the following areas sexual abuse, neglect, physical abuse, exploitation, emotional abuse (disseminate by these areas) accessing support services",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-6-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC4-6-2",
-          "title": "SOC 4.6.2 Proportion of youth age 14 -30 that feel valued in society",
+          "title": "Proportion of youth age 14 -30 that feel valued in society",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-6-2",
@@ -1407,7 +1407,7 @@
         },
         {
           "id": "SOC4-7-1",
-          "title": "SOC 4.7.1 Proportion of youth actively participating in at least one organised sport in the last 12 months by gender",
+          "title": "Proportion of youth actively participating in at least one organised sport in the last 12 months by gender",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-7-1",
@@ -1415,7 +1415,7 @@
         },
         {
           "id": "SOC4-7-2",
-          "title": "SOC 4.7.2 Number of government sponsored or partnered sporting events in the last 12 months",
+          "title": "Number of government sponsored or partnered sporting events in the last 12 months",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC4-7-2",
@@ -1426,12 +1426,12 @@
   {
     "goal": {
       "id": "SOC5",
-      "title": "global_goals.SOC5-title",
+      "title": "A society where the rule of law is consistently upheld, and access to timely justice is available to everyone",
       "indicators": [
         
         {
           "id": "SOC5-1-1",
-          "title": "SOC 5.1.1 Proportion of Justice and Community Services Sector Capacity Development Strategy 2017-2020 implemented",
+          "title": "Proportion of Justice and Community Services Sector Capacity Development Strategy 2017-2020 implemented",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-1-1",
@@ -1439,7 +1439,7 @@
         },
         {
           "id": "SOC5-1-2",
-          "title": "SOC 5.1.2 Annual change in number of Magistrate and Supreme Court pending cases",
+          "title": "Annual change in number of Magistrate and Supreme Court pending cases",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-1-2",
@@ -1447,15 +1447,15 @@
         },
         {
           "id": "SOC5-1-3",
-          "title": "SOC 5.1.3 Average cost of legal fees/services for a court case",
+          "title": "Average cost of legal fees/services for a court case",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-1-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC5-2-1",
-          "title": "SOC 5.2.1 Number of Anti-Corruption committee submissions acted upon",
+          "title": "Number of Anti-Corruption committee submissions acted upon",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-2-1",
@@ -1463,7 +1463,7 @@
         },
         {
           "id": "SOC5-3-1",
-          "title": "SOC 5.3.1 Annual number of community safety assessments carried out by VPF",
+          "title": "Annual number of community safety assessments carried out by VPF",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-3-1",
@@ -1471,7 +1471,7 @@
         },
         {
           "id": "SOC5-3-2",
-          "title": "SOC 5.3.2 Total number of national security forces per 1,000 population",
+          "title": "Total number of national security forces per 1,000 population",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-3-2",
@@ -1479,7 +1479,7 @@
         },
         {
           "id": "SOC5-3-3",
-          "title": "SOC 5.3.3 Total number of correctional officers per 100 detainees",
+          "title": "Total number of correctional officers per 100 detainees",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-3-3",
@@ -1487,7 +1487,7 @@
         },
         {
           "id": "SOC5-4-1",
-          "title": "SOC 5.4.1 Annual number of patrol missions within EEZ",
+          "title": "Annual number of patrol missions within EEZ",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-4-1",
@@ -1495,7 +1495,7 @@
         },
         {
           "id": "SOC5-4-2",
-          "title": "SOC 5.4.2 Percentage of licensed vessels which have trained observers on board",
+          "title": "Percentage of licensed vessels which have trained observers on board",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-4-2",
@@ -1503,7 +1503,7 @@
         },
         {
           "id": "SOC5-4-3",
-          "title": "SOC 5.4.3 Level of reporting to the Vessel Monitoring System (VMS)",
+          "title": "Level of reporting to the Vessel Monitoring System (VMS)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-4-3",
@@ -1511,7 +1511,7 @@
         },
         {
           "id": "SOC5-5-1",
-          "title": "SOC 5.5.1 Total number of annual community engagement activities undertaken by national law enforcement officers",
+          "title": "Total number of annual community engagement activities undertaken by national law enforcement officers",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-5-1",
@@ -1519,31 +1519,31 @@
         },
         {
           "id": "SOC5-5-2",
-          "title": "SOC 5.5.2 Incidents of theft and vandalism reported annually to the police (and the proportion of reported incidents to unreported)",
+          "title": "Incidents of theft and vandalism reported annually to the police (and the proportion of reported incidents to unreported)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-5-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC5-5-3",
-          "title": "SOC 5.5.3 Proportion of population with positive assessment of their chief's ability to resolve disputes peacefully",
+          "title": "Proportion of population with positive assessment of their chief's ability to resolve disputes peacefully",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC5-5-3",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
   {
     "goal": {
       "id": "SOC6",
-      "title": "global_goals.SOC6-title",
+      "title": "A dynamic public sector with good governance principles and strong institutions delivering the support and services expected by all citizens of Vanuatu",
       "indicators": [
         
         {
           "id": "SOC6-1-1",
-          "title": "SOC 6.1.1 Reduction in annual Employment Disciplinary Board decisions",
+          "title": "Reduction in annual Employment Disciplinary Board decisions",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-1-1",
@@ -1551,7 +1551,7 @@
         },
         {
           "id": "SOC6-1-2",
-          "title": "SOC 6.1.2 Annual number of public officials receiving relevant qualifications through VIPAM and other government programs",
+          "title": "Annual number of public officials receiving relevant qualifications through VIPAM and other government programs",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-1-2",
@@ -1559,7 +1559,7 @@
         },
         {
           "id": "SOC6-1-3",
-          "title": "SOC 6.1.3 Reduction in level of subsidies/grants to SOEs",
+          "title": "Reduction in level of subsidies/grants to SOEs",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-1-3",
@@ -1567,7 +1567,7 @@
         },
         {
           "id": "SOC6-2-1",
-          "title": "SOC 6.2.1 Proportion of SOEs and Statutory bodies submitting annual reports to their boards of directors",
+          "title": "Proportion of SOEs and Statutory bodies submitting annual reports to their boards of directors",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-2-1",
@@ -1575,15 +1575,15 @@
         },
         {
           "id": "SOC6-3-1",
-          "title": "SOC 6.3.1 Proportion of eligible population reporting to have voted in last election",
+          "title": "Proportion of eligible population reporting to have voted in last election",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-3-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC6-3-2",
-          "title": "SOC 6.3.2 Proportion of population with an overall positive assessment of their local elected officials",
+          "title": "Proportion of population with an overall positive assessment of their local elected officials",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-3-2",
@@ -1591,7 +1591,7 @@
         },
         {
           "id": "SOC6-3-3",
-          "title": "SOC 6.3.3 Number of MPs submitting annual financial accountability report",
+          "title": "Number of MPs submitting annual financial accountability report",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-3-3",
@@ -1599,7 +1599,7 @@
         },
         {
           "id": "SOC6-4-1",
-          "title": "SOC 6.4.1 Proportion of BP objectives met as reported in department ARs",
+          "title": "Proportion of BP objectives met as reported in department ARs",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-4-1",
@@ -1607,7 +1607,7 @@
         },
         {
           "id": "SOC6-5-1",
-          "title": "SOC 6.5.1 Change in annual budget going to Provinces, Municipalities towards operations/programs (Devolution of funding authority)",
+          "title": "Change in annual budget going to Provinces, Municipalities towards operations/programs (Devolution of funding authority)",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-5-1",
@@ -1631,15 +1631,15 @@
         },
         {
           "id": "SOC6-7-1",
-          "title": "SOC 6.7.1 Proportion of population utilising media outlets for news including: newspapers, mobile phones, radio, television, and internet",
+          "title": "Proportion of population utilising media outlets for news including: newspapers, mobile phones, radio, television, and internet",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-7-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "SOC6-7-2",
-          "title": "SOC 6.7.2 Proportion of data collected from requests acted upon by RTI officers in each government agency",
+          "title": "Proportion of data collected from requests acted upon by RTI officers in each government agency",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-7-2",
@@ -1647,7 +1647,7 @@
         },
         {
           "id": "SOC6-8-1",
-          "title": "SOC 6.8.1 Percentage of aid the government sector reported on the government’s budget",
+          "title": "Percentage of aid the government sector reported on the government’s budget",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-8-1",
@@ -1655,7 +1655,7 @@
         },
         {
           "id": "SOC6-8-2",
-          "title": "SOC 6.8.2 Percentage of aid for the government sector using Vanuatu government PFM systems",
+          "title": "Percentage of aid for the government sector using Vanuatu government PFM systems",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-8-2",
@@ -1663,7 +1663,7 @@
         },
         {
           "id": "SOC6-8-3",
-          "title": "SOC 6.8.3 Percentage of aid for the government sector using Vanuatu government procurement systems",
+          "title": "Percentage of aid for the government sector using Vanuatu government procurement systems",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-8-3",
@@ -1671,7 +1671,7 @@
         },
         {
           "id": "SOC6-9-1",
-          "title": "SOC 6.9.1 NSDP data reviewed annually",
+          "title": "NSDP data reviewed annually",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-9-1",
@@ -1679,11 +1679,11 @@
         },
         {
           "id": "SOC6-9-2",
-          "title": "SOC 6.9.2 Percentage of NSDS strategic objectives achieved",
+          "title": "Percentage of NSDS strategic objectives achieved",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/SOC6-9-2",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   }]

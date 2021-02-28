@@ -107,7 +107,7 @@ var translations = {
         
         Indicator ECO3.2.2 -
         
-        ECO 3.2.2.Annual change in tourism by air and sea arrivals - Indicators For The National Sustainable Development Plan
+        Annual change in tourism by air and sea arrivals - Indicators For The National Sustainable Development Plan
     </title>
 
 
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210225033231">
+        <link rel="stylesheet" href="/vanuatu-nsdp/assets/css/style.css?v=20210228063104">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -274,7 +274,7 @@ var translations = {
       </div>
 
       <% if(allowedFields.indexOf(fieldItem.field) == -1) { %>
-        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.findWhere(edges, { To: fieldItem.field }).From) %>' is selected
+        <div class="variable-hint" id="variable-hint-<%=fieldItem.field.replace(/ /g, '-')%>">Available when '<%= translations.t(_.find(edges, { To: fieldItem.field }).From) %>' is selected
         </div>
         <div class="no-data-hint" id="no-data-hint-<%=fieldItem.field.replace(/ /g, '-')%>">
           No options available because of filters above
@@ -323,7 +323,7 @@ var translations = {
   <li><a href="/vanuatu-nsdp/">Home</a></li>
   <li><a href="/vanuatu-nsdp/goals">Goals</a></li>
   
-  <li><a href="/vanuatu-nsdp/ECO3" title="global_goals.ECO3-title">Goal ECO3</a></li>
+  <li><a href="/vanuatu-nsdp/ECO3" title="A strong rural economy that creates opportunities, enables the development of rural communities and increasingly contributes to national prosperity">Economy 3</a></li>
   
 </ol>
 
@@ -354,7 +354,7 @@ var translations = {
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
         <a href="/vanuatu-nsdp/ECO3" title="View this goal's indicator list">
-          <img src="/vanuatu-nsdp/assets/img/goals/en/ECO3.jpg" alt="global_goals.ECO3-short - Goal ECO3" id="goal-ECO3" class="goal-icon-image goal-icon-image-jpg"/>
+          <img src="/vanuatu-nsdp/assets/img/goals/en/ECO3.jpg" alt="Economy 3 - Goal ECO3" id="goal-ECO3" class="goal-icon-image goal-icon-image-jpg"/>
         </a>
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10 indicator-details">
@@ -364,7 +364,7 @@ var translations = {
             
             Indicator ECO3.2.2
             
-            <span class="lead-copy">ECO 3.2.2.Annual change in tourism by air and sea arrivals</span>
+            <span class="lead-copy">Annual change in tourism by air and sea arrivals</span>
           </h1>
         </div>
       </div>
@@ -388,7 +388,7 @@ var translations = {
   data-indicatorid='indicator_ECO3-2-2'
   data-id="ECO3-2-2"
   data-country="Vanuatu"
-  data-charttitle="ECO 3.2.2.Annual change in tourism by air and sea arrivals"
+  data-charttitle="Annual change in tourism by air and sea arrivals"
   data-charttitles="null"
   data-measurementunit=""
   data-showdata="true"
@@ -433,7 +433,7 @@ var translations = {
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
-      <caption>ECO 3.2.2.Annual change in tourism by air and sea arrivals</caption>
+      <caption>Annual change in tourism by air and sea arrivals</caption>
       <thead>
         
         
@@ -441,7 +441,15 @@ var translations = {
         
         
         
-        <th scope="col" class="table-value">Value</th>
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col">Units</th>
+        
+        
+        
+        <th scope="col" class="table-value">Series</th>
         
         
       </thead>
@@ -450,11 +458,479 @@ var translations = {
         <tr>
           
           
-          <td>2018</td>
+          <td>2006</td>
           
           
           
-          <td class="table-value">6526</td>
+          <td>6056</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2007</td>
+          
+          
+          
+          <td>13166</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td>9176</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>10154</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>-3495</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>-3220</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>14201</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>1948</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>-1301</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>-18856</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>5165</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>13991</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2006</td>
+          
+          
+          
+          <td>22368</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2007</td>
+          
+          
+          
+          <td>-185</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2008</td>
+          
+          
+          
+          <td>20401</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2009</td>
+          
+          
+          
+          <td>18680</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2010</td>
+          
+          
+          
+          <td>15650</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2011</td>
+          
+          
+          
+          <td>14470</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2012</td>
+          
+          
+          
+          <td>58305</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2013</td>
+          
+          
+          
+          <td>29403</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2014</td>
+          
+          
+          
+          <td>-22441</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>-22734</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>59011</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2017</td>
+          
+          
+          
+          <td>-27059</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -466,7 +942,35 @@ var translations = {
           
           
           
-          <td class="table-value">11016</td>
+          <td>6526</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2018</td>
+          
+          
+          
+          <td>11016</td>
+          
+          
+          
+          <td>Total</td>
+          
+          
+          
+          <td class="table-value"></td>
           
           
         </tr>
@@ -476,6 +980,8 @@ var translations = {
   </div>
 
   <div id="datatableFooter">
+    
+    <p>Source: 2015 and 2016 figures from fourth quarter 2017 QSI, VNSO</p>
     
     
     <p>Geographical Area: Vanuatu</p>
@@ -528,7 +1034,7 @@ data-event-label="Change to Table tab"
     <div id="selectionsChart">
       <figure role="group">
         <div id="chart-canvas">
-          <h4 id="chart-heading" class="chart-title">ECO 3.2.2.Annual change in tourism by air and sea arrivals</h4>
+          <h4 id="chart-heading" class="chart-title">Annual change in tourism by air and sea arrivals</h4>
           <div id="chart" class="plot-container">
             
 <canvas
@@ -541,7 +1047,7 @@ data-event-label="Change to Table tab"
 <script>
 // Add a chart alteration to support the chart_graph_limits metadata field.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.graphLimits) {
+  if (info.graphLimits && info.graphLimits.length > 0) {
     var overrides = {
       options: {
         scales: {
@@ -763,6 +1269,9 @@ opensdg.chartConfigAlter(function(config, info) {
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>2015 and 2016 figures from fourth quarter 2017 QSI, VNSO, 2010 and 2011 figures from fourth quarter 2013 QSI, VNSO, 2013 value from fourth quarter 2013 QSI, 2014 figure from  fourth quarter  2017, VNSO, 2012 and 2013 figures from fourth quarter 2013 QSI, VNSO, 2014 and 2015 figures from fourth quarter 2017 QSI, VNSO, 2016 and 2017 figures from fourth quarter 2017 QSI, VNSO, 2006 and 2007 figures from fourth quarter 2009 QSI, VNSO, 2008 and 2009 figures from fourth quarter 2009 QSI, VNSO, 2017 and 2018 figures from fourth quarter 2018 QSI, VNSO, 2009 value from fourth quarter 2009 QSI, 2010 figure from  fourth quarter  2013, VNSO, 2011 and 2012 figures from fourth quarter 2013 QSI, VNSO, 2007 and 2008 figures from fourth quarter 2009 QSI, VNSO</dd>
+        
 
         
         <dt>Geographical Area:</dt>
@@ -801,6 +1310,9 @@ opensdg.chartConfigAlter(function(config, info) {
 <div id="selectionTableFooter" class="table-footer-text">
   <h5 class="sr-only">Chart details</h5>
     <dl>
+        
+        <dt>Source:</dt>
+        <dd>2015 and 2016 figures from fourth quarter 2017 QSI, VNSO, 2010 and 2011 figures from fourth quarter 2013 QSI, VNSO, 2013 value from fourth quarter 2013 QSI, 2014 figure from  fourth quarter  2017, VNSO, 2012 and 2013 figures from fourth quarter 2013 QSI, VNSO, 2014 and 2015 figures from fourth quarter 2017 QSI, VNSO, 2016 and 2017 figures from fourth quarter 2017 QSI, VNSO, 2006 and 2007 figures from fourth quarter 2009 QSI, VNSO, 2008 and 2009 figures from fourth quarter 2009 QSI, VNSO, 2017 and 2018 figures from fourth quarter 2018 QSI, VNSO, 2009 value from fourth quarter 2009 QSI, 2010 figure from  fourth quarter  2013, VNSO, 2011 and 2012 figures from fourth quarter 2013 QSI, VNSO, 2007 and 2008 figures from fourth quarter 2009 QSI, VNSO</dd>
         
 
         
@@ -908,10 +1420,26 @@ data-event-label="Change to indicator.sources tab"
       
       
       <tr>
+        <th scope="row">Goal name </th>
+        <td>
+          
+            <p>A strong rural economy that creates opportunities, enables the development of rural communities and increasingly contributes to national prosperity</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+        
+      
+      
+      <tr>
         <th scope="row">Indicator name </th>
         <td>
           
-            <p>ECO 3.2.2.Annual change in tourism by air and sea arrivals</p>
+            <p>Annual change in tourism by air and sea arrivals</p>
 
           
         </td>
@@ -937,7 +1465,20 @@ data-event-label="Change to indicator.sources tab"
   
       
         
+      
+      
+      <tr>
+        <th scope="row">Policy objective name </th>
+        <td>
           
+            <p>Deepen the integration of the tourism sector into the rural economy to spread opportunities to rural communities</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
         
       
@@ -1024,6 +1565,18 @@ data-event-label="Change to indicator.sources tab"
         
           
   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </table>
 
       </article>
@@ -1044,6 +1597,592 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 1</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>2015 and 2016 figures from fourth quarter 2017 QSI, VNSO</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 2</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>2010 and 2011 figures from fourth quarter 2013 QSI, VNSO</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 3</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>2013 value from fourth quarter 2013 QSI, 2014 figure from  fourth quarter  2017, VNSO</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 4</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>2012 and 2013 figures from fourth quarter 2013 QSI, VNSO</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 5</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>2014 and 2015 figures from fourth quarter 2017 QSI, VNSO</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 6</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+        
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>2016 and 2017 figures from fourth quarter 2017 QSI, VNSO</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 7</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 8</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 9</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 10</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 11</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+        <h4>Source 12</h4>
+      
+      <table class="table">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</table>
+
+    </div>
+    
+  </div>
 
 
       </article>
@@ -1133,7 +2272,7 @@ data-event-label="Change to indicator.sources tab"
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
@@ -1147,12 +2286,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210225033231'></script>
+<script src='/vanuatu-nsdp/assets/js/sdg.js?v=20210228063104'></script>
 
 
     
     
-    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210225033231"></script><script>
+    <script src="/vanuatu-nsdp/assets/js/custom.js?v=20210228063104"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

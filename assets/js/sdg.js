@@ -609,7 +609,7 @@ Chart.plugins.register({
       return meta && meta.visible;
     });
 
-    var ranges = _.chain(datasets).pluck('allData').map(function (data) {
+    var ranges = _.chain(datasets).map('allData').map(function (data) {
       return {
         min: _.findIndex(data, function(val) { return val !== null }),
         max: _.findLastIndex(data, function(val) { return val !== null })
@@ -617,8 +617,8 @@ Chart.plugins.register({
     }).value();
 
     var dataRange = ranges.length ? {
-      min: _.chain(ranges).pluck('min').min().value(),
-      max: _.chain(ranges).pluck('max').max().value()
+      min: _.chain(ranges).map('min').min().value(),
+      max: _.chain(ranges).map('max').max().value()
     } : undefined;
 
     if (dataRange) {
@@ -968,19 +968,34 @@ var accessibilitySwitcher = function() {
 
 
   function imageFix(contrast) {
-    
+    var doNotSwitchTheseSuffixes = ['.svg'];
+    var doNotSwitchThesePrefixes = ['https://platform-cdn.sharethis.com/'];
     if (contrast == 'high')  {
-      _.each($('img:not([src*=high-contrast])'), function(goalImage){
-        if ($(goalImage).attr('src').slice(0, 35) != "https://platform-cdn.sharethis.com/") {
-        $(goalImage).attr('src', $(goalImage).attr('src').replace('img/', 'img/high-contrast/'));
-        }})
+      _.each($('img:not([src*=high-contrast])'), function(image) {
+        var src = $(image).attr('src').toLowerCase();
+        var switchThisImage = true;
+        for (var i = 0; i < doNotSwitchTheseSuffixes.length; i++) {
+          var suffix = doNotSwitchTheseSuffixes[i];
+          if (src.slice(0 - suffix.length) === suffix) {
+            switchThisImage = false;
+          }
+        }
+        for (var i = 0; i < doNotSwitchThesePrefixes.length; i++) {
+          var prefix = doNotSwitchThesePrefixes[i];
+          if (src.slice(0, prefix.length) === prefix) {
+            switchThisImage = false;
+          }
+        }
+        if (switchThisImage) {
+          $(image).attr('src', $(image).attr('src').replace('img/', 'img/high-contrast/'));
+        }
+      });
     } else {
       // Remove high-contrast
       _.each($('img[src*=high-contrast]'), function(goalImage){
         $(goalImage).attr('src', $(goalImage).attr('src').replace('high-contrast/', ''));
       })
     }
-    
   };
 
 };
@@ -1010,7 +1025,8 @@ opensdg.chartColors = function(indicatorId) {
   this.colorSets = {'default':['7e984f', '8d73ca', 'aaa533', 'c65b8a', '4aac8d', 'c95f44'],
                   'sdg':['e5243b', 'dda63a', '4c9f38', 'c5192d', 'ff3a21', '26bde2', 'fcc30b', 'a21942', 'fd6925', 'dd1367','fd9d24','bf8b2e','3f7e44','0a97d9','56c02b','00689d','19486a'],
                   'goal': this.goalColors[this.goalNumber-1],
-                  'custom': customColorList};
+                  'custom': customColorList,
+                  'accessible': ['55a6e5', '8d4d57', 'cd7a00', '993300', '339966', '9966cc']};
   if(Object.keys(this.colorSets).indexOf(colorSet) == -1 || (colorSet=='custom' && customColorList == null)){
     return this.colorSets['default'];
   }
@@ -1033,6 +1049,7 @@ var SERIES_COLUMN = 'Series';
 var GEOCODE_COLUMN = 'GeoCode';
 var YEAR_COLUMN = 'Year';
 var VALUE_COLUMN = 'Value';
+// Note this headline color is overridden in indicatorView.js.
 var HEADLINE_COLOR = '#777777';
 var SERIES_TOGGLE = true;
 
@@ -1192,8 +1209,8 @@ function dataHasUnits(columns) {
  * @return {boolean}
  */
 function dataHasUnitSpecificFields(fieldsUsedByUnit) {
-  return !_.every(_.pluck(fieldsUsedByUnit, 'fields'), function(fields) {
-    return _.isEqual(_.sortBy(_.pluck(fieldsUsedByUnit, 'fields')[0]), _.sortBy(fields));
+  return !_.every(_.map(fieldsUsedByUnit, 'fields'), function(fields) {
+    return _.isEqual(_.sortBy(_.map(fieldsUsedByUnit, 'fields')[0]), _.sortBy(fields));
   });
 }
 
@@ -1274,8 +1291,8 @@ function dataHasSerieses(columns) {
  * @return {boolean}
  */
 function dataHasSeriesSpecificFields(fieldsUsedBySeries) {
-  return !_.every(_.pluck(fieldsUsedBySeries, 'fields'), function(fields) {
-    return _.isEqual(_.sortBy(_.pluck(fieldsUsedBySeries, 'fields')[0]), _.sortBy(fields));
+  return !_.every(_.map(fieldsUsedBySeries, 'fields'), function(fields) {
+    return _.isEqual(_.sortBy(_.map(fieldsUsedBySeries, 'fields')[0]), _.sortBy(fields));
   });
 }
 
@@ -2175,7 +2192,7 @@ function convertJsonFormatToRows(data) {
   }
 
   return data[keys[0]].map(function(item, index) {
-    return _.object(keys, keys.map(function(key) {
+    return _.zipObject(keys, keys.map(function(key) {
       return data[key][index];
     }));
   });
@@ -2193,7 +2210,7 @@ function getHeadline(selectableFields, rows) {
     });
   }).map(function (row) {
     // Remove null fields in each row.
-    return _.pick(row, function(val) { return val !== null });
+    return _.pickBy(row, function(val) { return val !== null });
   });
 }
 
@@ -2765,14 +2782,14 @@ var indicatorView = function (model, options) {
       var currentField = $(element).data('field');
 
       // any info?
-      var match = _.findWhere(args.selectedFields, { field : currentField });
+      var match = _.find(args.selectedFields, { field : currentField });
       var element = $(view_obj._rootElement).find('.variable-selector[data-field="' + currentField + '"]');
       var width = match ? (Number(match.values.length / element.find('.variable-options label').length) * 100) + '%' : '0';
 
       $(element).find('.bar .selected').css('width', width);
 
       // is this an allowed field:
-      if (_.contains(args.allowedFields, currentField)) {
+      if (args.allowedFields.includes(currentField)) {
         $(element).removeClass('disallowed');
         $(element).find('> button').removeAttr('aria-describedby');
       }
@@ -2851,7 +2868,7 @@ var indicatorView = function (model, options) {
     })).groupBy('field').map(function(value, key) {
       return {
         field: key,
-        values: _.pluck(value, 'value')
+        values: _.map(value, 'value')
       };
     }).value());
   }
@@ -3020,6 +3037,7 @@ var indicatorView = function (model, options) {
     this.updateIndicatorDataViewStatus(view_obj._chartInstance.data.datasets, chartInfo.datasets);
     view_obj._chartInstance.data.datasets = chartInfo.datasets;
     view_obj._chartInstance.data.labels = chartInfo.labels;
+    this.updateHeadlineColor(this.isHighContrast() ? 'high' : 'default', view_obj._chartInstance);
     // TODO: Investigate assets/js/chartjs/rescaler.js and why "allLabels" is needed.
     view_obj._chartInstance.data.allLabels = chartInfo.labels;
 
@@ -3068,7 +3086,8 @@ var indicatorView = function (model, options) {
           xAxes: [{
             maxBarThickness: 150,
             gridLines: {
-              color: gridColor,
+              color: 'transparent',
+              zeroLineColor: '#757575',
             },
             ticks: {
               fontColor: tickColor,
@@ -3077,6 +3096,8 @@ var indicatorView = function (model, options) {
           yAxes: [{
             gridLines: {
               color: gridColor,
+              zeroLineColor: '#757575',
+              drawBorder: false,
             },
             ticks: {
               suggestedMin: 0,
@@ -3137,6 +3158,10 @@ var indicatorView = function (model, options) {
     this.alterChartConfig(chartConfig, chartInfo);
     if (this.isHighContrast()) {
       this.updateGraphAnnotationColors('high', chartConfig);
+      this.updateHeadlineColor('high', chartConfig);
+    }
+    else {
+      this.updateHeadlineColor('default', chartConfig);
     }
 
     this._chartInstance = new Chart($(this._rootElement).find('canvas'), chartConfig);
@@ -3144,13 +3169,14 @@ var indicatorView = function (model, options) {
     window.addEventListener('contrastChange', function(e) {
       var gridColor = that.getGridColor(e.detail);
       var tickColor = that.getTickColor(e.detail);
+      that.updateHeadlineColor(e.detail, view_obj._chartInstance);
       that.updateGraphAnnotationColors(e.detail, view_obj._chartInstance);
       view_obj._chartInstance.options.scales.yAxes[0].scaleLabel.fontColor = tickColor;
       view_obj._chartInstance.options.scales.yAxes[0].gridLines.color = gridColor;
       view_obj._chartInstance.options.scales.yAxes[0].ticks.fontColor = tickColor;
-      view_obj._chartInstance.options.scales.xAxes[0].gridLines.color = gridColor;
       view_obj._chartInstance.options.scales.xAxes[0].ticks.fontColor = tickColor;
       view_obj._chartInstance.update();
+      $(view_obj._legendElement).html(view_obj._chartInstance.generateLegend());
     });
 
     Chart.pluginService.register({
@@ -3220,6 +3246,10 @@ var indicatorView = function (model, options) {
     $(this._legendElement).html(view_obj._chartInstance.generateLegend());
   };
 
+  this.getHeadlineColor = function(contrast) {
+    return this.isHighContrast(contrast) ? '#FFDD00' : '#004466'
+  }
+
   this.getGridColor = function(contrast) {
     return this.isHighContrast(contrast) ? '#222' : '#ddd';
   };
@@ -3249,6 +3279,20 @@ var indicatorView = function (model, options) {
       });
     }
   };
+
+  this.updateHeadlineColor = function(contrast, chartInfo) {
+    if (chartInfo.data.datasets.length > 0) {
+      var firstDataset = chartInfo.data.datasets[0];
+      var isHeadline = (typeof firstDataset.disaggregation === 'undefined');
+      if (isHeadline) {
+        var newColor = this.getHeadlineColor(contrast);
+        firstDataset.backgroundColor = newColor;
+        firstDataset.borderColor = newColor;
+        firstDataset.pointBackgroundColor = newColor;
+        firstDataset.pointBorderColor = newColor;
+      }
+    }
+  }
 
   this.toCsv = function (tableData) {
     var lines = [],
@@ -3730,6 +3774,14 @@ var indicatorSearch = function() {
       if (typeof lunr[opensdg.language] === 'undefined') {
         useLunr = false;
       }
+    }
+
+    // Recognize an indicator id as a special case that does not need Lunr.
+    var searchWords = searchTermsToUse.split(' '),
+        indicatorIdParts = searchWords[0].split('.'),
+        isIndicatorSearch = (searchWords.length === 1 && indicatorIdParts.length >= 3);
+    if (isIndicatorSearch) {
+      useLunr = false;
     }
 
     var results = [];

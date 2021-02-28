@@ -1,1 +1,3 @@
-Year,Value
+Year,Value,Units,Series
+2014,12.3,Percent,PROXY-ENV1-1-3
+2010,13.0,Percent,PROXY-ENV1-1-3

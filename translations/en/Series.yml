@@ -1,0 +1,276 @@
+'11110': Daily Use of Indigenous Languages
+'11120': First Language Used Indigenous
+'11130': Documented Endangered Languages
+'11210': Traditional Knowledge Stories
+'11211': Traditional Knowledge Dances
+'11212': Traditional Knowledge Songs
+'11213': Traditional Knowledge Games
+'11220': Basic Traditional Production Skills
+'11230': Ability to Produce Traditional Medicines
+'11231': Ability to Perform Traditional Massage
+'11310': Cultural and Historical Sites
+'11410': Traditional Governance Reviews of National Bills
+'11510': Religious Affiliation of Health Services
+'11511': Religious Affiliation of Education Services
+'11610': Cultural Heritage Curriculum Use
+'11620': Culture Reflected in National Curriculum
+'11710': Access to Traditional Lands
+'11711': Access to Common Forest Resources
+'11712': Access to Common Marine Resources
+'11720': Use of Traditional Lands Agriculture
+'11721': Use of Traditional Lands Marine  (aquaculture)
+'11722': Use of Traditional Lands Forestry
+'11723': Use of Traditional Lands Livestock
+'12110': Kindergarten Attended Rate
+'12111': Educational Survival Yrs 1-6
+'12112': Educational Survival Yrs 1-13
+'12210': Public Schools Receiving Grants
+'12310': Literacy Standards Yr 4 Anglo
+'12311': Literacy Standards Yr 6 Anglo
+'12312': Numeracy Standards Yr 4 Anglo
+'12313': Numeracy Standards Yr 6 Anglo
+'12314': Literacy Standards Yr 4 Franco
+'12315': Literacy Standards Yr 6 Franco
+'12316': Numeracy Standards Yr 4 Franco
+'12317': Numeracy Standards Yr 6 Franco
+'12410': Technical and Vocational Institutions Registered VQA
+'13110': Skilled Health Professionals Ratio, Doctors
+'13111': Skilled Health Professionals Ratio, Nurses
+'13112': Skilled Health Professionals Ratio, Midwives
+'13120': Maternal Mortality Rate
+'13130': Health Facility Compliance with Role Delineation
+'13131': Health Facilities Not Meeting Minimal Clinical Staffing Requirements (PROXY)
+'13210': Non-Communicable Disease Amputations
+'13211': Prevalence of Diabetes
+'13220': Incidence of Tuberculosis
+'13230': Malaria Annual Parasitic Incidence Rate
+'13310': DTP3 Immunisation Coverage for 1 Year Olds
+'13320': Adult Obesity Prevalence
+'13330': Under 5 Mortality Rate
+'13410': 'Strategic Plans '
+'13420': Permanent Corporate Positions Filled at MoH
+'13430': 'International Health Regulations Component 2 '
+'14110': Gender Responsive Policies in Government
+'14120': Women in Decision Making
+'14130': Womens Empowerment
+'14210': Subjective Well-being
+'14220': Reported Violence Against Women
+'14221': Reported Violence Against Children
+'14222': 'Reported Violence Against Other Vulnerable People '
+'14223': Prevalence of Physical and/or Sexual Violence Against Women, last 12 months
+  (PROXY)
+'14224': Average Percentage of Children 2-14 Experienced Any Form of Violent Discipline
+  (PROXY)
+'14230': Reported Cases of Violence Against Women Addressed
+'14231': Reported Cases of Violence Against Children Addressed
+'14232': Reported Cases of Violence Against Other Vulnerable People Addressed
+'14310': People Living with Disability
+'14320': Disability Accessible Public Infrastructure
+'14330': People with Disability in Leadership
+'14410': Implementation of National Human Rights Commission
+'14420': Ratified International Conventions on Human Rights
+'14430': Bias Review of National Laws
+'14610': Support Services for Child Human Rights Violations, Sexual Abuse
+'14611': Support Services for Child Human Rights Violations, Neglect
+'14612': Support Services for Child Human Rights Violations, Physical Abuse
+'14613': Proportion of Children (2-14) that Experience Any Violent Discipline (PROXY)
+'14614': Support Services for Child Human Rights Violations, Exploitation
+'14615': Support Services for Child Human Rights Violations, Emotional Abuse
+'14616': Proportion of Children (2-14) that Experience Psychological Aggression (PROXY)
+'14620': Youth Sense of Value
+'14710': Youth Participation in Organized Sport
+'14720': Government Support of Organized Sport
+'15110': Implementation of Justice Sector Capacity Development
+'15120': Change in Annual Pending Court Cases
+'15130': Average Cost of Legal Services
+'15131': Total Legal Expenses Monthly, full country (PROXY)
+'15210': Action on Anti-Corruption Committee Submissions
+'15310': VPF Safety Assessments
+'15320': National Security Forces Ratio
+'15330': Correctional Officers Ratio
+'15410': Annual EEZ Patrol Missions
+'15420': Trained Observers On Board Licensed Vessels
+'15430': Licensed Vessels Reporting to Monitoring System
+'15510': Law Enforcement Led Community Engagement Activities
+'15520': Reported Incidents of Theft and Vandalism
+'15521': Reported to Unreported Incidents - Theft and Vandalism
+'15522': Average Number Self-Reported Incidents of Theft over 12 months (PROXY)
+'15523': Average Number Self-Reported Incidents of Vandalism over 12 months (PROXY)
+'15530': Assessment of Chiefs Role - Dispute Resolution
+'16110': Employment Disciplinary Board Decisions
+'16120': Public Officials Trained Annually
+'16130': Total Grants and Subsidies to State Owned Enterprises
+'16210': SOE Annual Report Submissions to Boards
+'16310': Self-Reported Electoral Participation Rate
+'16311': Self-Reported Possession of Valid Electoral Card, Total (PROXY)
+'16320': Positive Assessments of Elected Officials
+'16330': MP Annual Financial Accountability Reporting
+'16410': Financial Best Practice Objectives Met by Departments
+'16510': Change in Annual Operational Budget Awarded Provinces
+'16520': Provincial Three-Year Rolling Plans Submitted to DLA
+'16610': Physical Plans in Physical Planning Areas
+'16710': Population Use of Radio
+'16711': Population Use of Newspapers
+'16712': Population Use of Television
+'16713': Population Use of Internet
+'16714': Population Ownership of Mobile Phones (15 yr +)
+'16720': Data Requests Actioned by RTI Officers
+'16810': Foreign Aid Reflected in National Budget
+'16820': Foreign Aid to Government Using PFM Systems
+'16830': Foreign Aid to Government Pusing Procurement Systems
+'16910': Annual Review of NSDP Data
+'16920': 'NSDP Strategic Objectives Achievement '
+'21110': Household Food Production for Consumption
+'21111': Annual Growth Rate of Subsistence/Custom/Traditional Agriculture Constant
+  Price (PROXY)
+'21112': Proportion of Population age 15+ Engaged in Household Production for Own
+  Consumption (PROXY)
+'21113': Total Households Engaged in Agricultural Activities (PROXY)
+'21120': Primary Sector Annual Report Completed
+'21130': Incidence of Food Poverty
+'21131': Poverty Headcount Ratio (PROXY)
+'21210': Food Security and Nutrition Guidelines
+'21310': Volume of Domestically Produced Food Imports
+'21320': Domestic Food Price Level
+'21321': Food Price Level CPI (PROXY)
+'21330': Food Price Inflation
+'21410': Fish Aggregating Device Coverage, TORBA
+'21411': Fish Aggregating Device Coverage, SANMA
+'21412': Fish Aggregating Device Coverage, PENAMA
+'21413': Fish Aggregating Device Coverage, MALAMPA
+'21414': Fish Aggregating Device Coverage, SHEFA
+'21415': Fish Aggregating Device Coverage, TAFEA
+'21420': Food Storage and Preservation Trainings
+'21430': Land-Use Capability Map
+'21510': Agro-Met Training of Productive Sector
+'21520': Crop Diversity Index
+'21530': Integrated Farming Practices in Productive Sector
+'22110': '"Green Infrastructure" Projects'
+'22210': Projects in Compliance with EIA Requirements
+'22220': 'Environmental Guidelines '
+'22310': Imports Meeting High Energy Efficiency Standards, Lighting Appliances
+'22311': Imports Meeting High Energy Efficiency Standards, Refrigeration Appliances
+'22320': Households Using Renewable Energy as Main Source of Lighting
+'22330': Grid-Based Electricity from Renewable Energy Sources
+'22410': Controlled Waste Disposal Facilities
+'22420': Implementation of National Waste Management Strategy and Action Plan
+'22421': Total Private Motor Vehicular Registration, Port Vila and Luganville (PROXY)
+'22510': Meeting National Environment Policy Targets
+'22520': Meeting Environmental Obligations of International Conventions and Treaties
+'22610': Sustainable Development Funding Through NPP / Government Expenditure on Environmental
+  Activities
+'22620': Deposits in Environmental Trust Fund
+'23110': Government Ministries with CC & DRM Policies, Budgets and Legislation
+'23120': Government Finance Support for Staff of NAB and DoCC
+'23130': Sector Stakeholders Awareness of CC & DRM Policies and Legislation
+'23210': Provincial Multi-Hazard Warning Systems Established
+'23220': Access to Early Warning Techologies
+'23221': Proportion of Households with Ability to Use Phone for Calls Inside Home
+  (PROXY)
+'23230': Atmospheric and Earth Sciences Research and Publication
+'23310': Community Support Plans for Planning, Preparedness, Response and Recovery
+'23320': Communities Affacted by Climate Change and Disasters with Durable Solutions
+'23330': Post-Disaster Needs Assment Multi-Hazard and Risk Map
+'23410': Public Schools Using CC & DRR Modules in National Curriculum
+'23420': Coverage of Climate Change Adaptation and Resilience Awareness Activities
+'23510': Donor Partner Support for Climate Change Adaptation and DRM
+'23520': Formal Accreditation of Vanuatu to Climate and Disaster Finance Funds
+'23530': Value of Externally Sourced Climate and Disaster Financing for Community
+  Programs
+'24110': Physical Plans for Physical Planning Areas
+'24120': Implementation of National Land Use Planning Policy Directives
+'24210': Water Protection Zones Declared
+'24220': GIS Mapping of Forested Areas
+'24310': 'EIA Compliance of Extraction Activities '
+'24410': National Fishing Fleet Compliance
+'24420': Development and Implementation of Integrated Coastal Management Plans
+'24510': Fisheries Management Plans Approved
+'24520': Commercial Coastal Sand Mines
+'24530': Collection Sites of Detailed Geo-Scientific Information
+'24610': Estimated Area (square km) of Reforestation and Rehabilitation
+'24620': Licensed Foresters Harvesting Within Allocated Quotas
+'24710': Community-Based Natural Resource Management Trainings by DEPC
+'25110': NBSAP and NISSAP Targets Met
+'25120': Environmental Guidelines
+'25210': Registered CCAs
+'25220': Implementation of Community CCA Management Plans
+'25310': Knowledge of Local Flora and Fauna Names
+'25320': Legally Protected Threatened Species
+'25410': Biosecurity Clearance of Incoming Planes and Sea Vessels
+'25510': Environmental Programme Model Schools
+'25610': Government Use of Centralized Environment Information Sharing System
+'31110': Underlying Inflation Rate
+'31120': GDP Growth Rate
+'31210': Change in Government Revenue
+'31310': 'Change in National Budget '
+'31320': Dept to GDP Ratio
+'31410': Value National Trade Import
+'31411': Value National Trade Export
+'31412': Volume of National Trade Import
+'31413': Volume of National Trade Export
+'31420': Change in Current Accounts Balance
+'31510': Value of Accrued Trade Benefit From Trade Agreements
+'31520': Value of Trade by Agreement
+'31521': Total Value Export to MSG Countries (PROXY)
+'31530': Balance of Trade
+'31610': Trade Analysis Reporting
+'31620': Value of Accrued Trade Benefit From Trade Agreements to GDP Proportion
+'31710': Major Commodity Production Volume Cocoa
+'31711': Major Commodity Production Volume Copra
+'31720': Change in Volume of Business Licences Issued to Ni-Vanuatu
+'31810': Growth Rate in Users of Financial Services
+'31820': Interest Rate (Average Bank Rate)
+'31830': NBV Deposit Ratio
+'31910': Understanding of Basic Principles of Personal Financial Accounting
+'32120': Mini-Grid Renewable Electricity by Province, Rural
+'32210': Access to Safe Drinking Water
+'32220': Access to Improved Sanitation Facilities
+'32310': New Building Compliance with Building Codes
+'32320': Existing Building Compliance with Building Codes
+'32410': Implementation of Road and Building Standards
+'32510': Amount Approved for Asset Management Budget Sought
+'32610': Access to Transport by Road, Sea, and Air
+'32611': Minutes to Nearest Road Walking Distance, < 1 hour (PROXY)
+'32612': Minutes to Nearest Airstrip Walking Distance, < 1 hour (PROXY)
+'32700': 'External Audits on Transport Against International Conventions and Standards '
+'32810': Procurement Contracts for Infrastructure and Transport Island, Community
+  Based
+'32910': Access to Internet
+'32911': Use of Internet Communications in Last 7 Days (PROXY)
+'32920': Change in Usership of Online Government Services
+'33110': Value of Tourism as Proportion GDP
+'33111': Value of Accommodation and Food Services as Proportion GDP (PROXY)
+'33112': Value of Infrastructure as Proportion GDP
+'33113': Value of Transport as Proportion GDP (PROXY)
+'33114': Value of Industry as Proportion GDP
+'33115': Value of Agriculture as Proportion GDP
+'33120': 'Business Participation in Annual Agri-Tourism Festival '
+'33210': Household Tourism Income
+'33211': Average Annual Household Income from Handicrafts (PROXY)
+'33220': Change in Annual Tourism Arrivals by Air
+'33221': Change in Annual Tourism Arrivals by Sea
+'33230': Tourism in Outer Islands as Proportion to Total
+'33310': Rural Infrastructure Investment Rate of Return
+'33311': Recovery Rate (cents on the dollar) (PROXY)
+'33320': Manufacturing Capacity Utilization Rate
+'33330': Rural Based Standard Operational Storage and Processing Facilities
+'33410': Agricultural Extension Services Per Capita
+'33420': Registered Rural Producer Cooperatives
+'33510': Rural Economic Analysis Reporting
+'33610': Traveling Distance to Nearest School, Health Facility, Police Post
+'34110': Gross Fixed Capital Formation Growth
+'34210': Rural Households Engaged in Trade with Urban Family
+'34211': Rural Households Engaged in Exchange of Traditional Wealth Items, Annual
+  Demand (PROXY)
+'34310': Range of Processed Local Products for Domestic Consumption and Export
+'34320': Ratio of Processed Export Commodities to Raw Export, Value
+'34410': Registered Hospitality Institutions Using Energy Efficient Lighting and Appliances
+'34510': Employment Cost Index
+'34610': Labour Force Participation Rate
+'34620': Validated Complaits Registered with Labour Union
+'34710': Change in Total Participation in Seasonal Work Programmes
+'34711': Total Population Ever Participated in RSE and SWP (PROXY)
+'34720': Labour Market Flows
+'34730': Remittances as Proportion of GDP
+'34810': Change in Total New Businesses Registered
+'34910': Operational Public/Private Joint Ventures

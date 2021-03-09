@@ -1,0 +1,9 @@
+progress:
+  - target: progress.target1
+    years:
+      - year: 2021
+        status: progress.sunny
+      - year: 2020
+        status: progress.rainy
+      - year: 2019
+        status: progress.cloudy

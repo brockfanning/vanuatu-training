@@ -1,0 +1,6 @@
+{% for progress in page.indicator.progress %}
+  {% assign most_recent_year = progress.years | sort: "year" | last %}
+    <p>
+        {{ progress.target | t }}: {{ most_recent_year.year }} - {{ most_recent_year.status | t }}
+    </p>
+{% endfor %}

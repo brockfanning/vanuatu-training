@@ -7,10 +7,12 @@ def get_inputs():
     data_input = InputCsvData(path_pattern='data/*.csv')
     meta_input = InputCsvMeta(path_pattern='meta/*.csv', git=False)
     indicator_config_input = InputYamlMeta(path_pattern='indicators/*.yml', git=False)
+    progress_input = InputYamlMeta(path_pattern='progress/*.yml', git=False)
     return [
         data_input,
         meta_input,
         indicator_config_input,
+        progress_input,
     ]
 
 def alter_meta(meta):

@@ -1,5 +1,6 @@
 from sdg.inputs import InputBase
 from mysql.connector import connect
+import yaml
 import os
 
 class InputNsdpDatabase(InputBase):
@@ -15,6 +16,7 @@ class InputNsdpDatabase(InputBase):
         data_sets = {}
         metadata_sets = {}
         source_sets = {}
+        series_translations = {}
 
         for metadata_set in cursor.fetchall():
 
@@ -27,15 +29,18 @@ class InputNsdpDatabase(InputBase):
             if indicator_id not in source_sets:
                 source_sets[indicator_id] = []
 
-            series = metadata_set['IndicatorShortName']
+            series_name = metadata_set['IndicatorShortName']
             data_id = metadata_set['DataID']
+            series_id = str(int(data_id))
+
+            series_translations[series_id] = series_name
 
             cursor.execute(self.get_value_sql(), [data_id])
             data_rows = cursor.fetchall()
             data_sets[indicator_id] += [{
                 'Year': self.fix_year(r['Year']),
                 'Units': self.fix_units(r['Value']),
-                'Series': series,
+                'Series': series_id,
                 'Value': self.fix_value(r['Value']),
             } for r in data_rows]
             source_sets[indicator_id] += [r['Source'] for r in data_rows]
@@ -72,6 +77,9 @@ class InputNsdpDatabase(InputBase):
 
             # Create the indicator.
             self.add_indicator(open_sdg_id, data=data, meta=meta, name=name, options=indicator_options)
+
+        #with open(os.path.join('translations', 'en', 'Series.yml'), 'w') as stream:
+        #    yaml.dump(series_translations, stream)
 
     def get_indicator_sql(self):
         return "SELECT * FROM nsdpindicator WHERE NSDPIndicatorCode = %s"

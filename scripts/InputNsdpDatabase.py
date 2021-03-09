@@ -11,34 +11,48 @@ class InputNsdpDatabase(InputBase):
                        host=os.environ.get('DBHOST'), database=os.environ.get('DBNAME'))
         cursor = mydb.cursor(dictionary=True)
 
-        # Query the indicators.
-        cursor.execute(self.get_indicator_sql())
-        for indicator in cursor.fetchall():
-            indicator_id = indicator['NSDPIndicatorCode']
-            open_sdg_id = self.fix_indicator_id(indicator_id)
-            name = self.fix_indicator_name(indicator['NSDPIndicator'], indicator['NSDPIndicatorCode'])
+        cursor.execute(self.get_metadata_sql())
+        data_sets = {}
+        metadata_sets = {}
+        source_sets = {}
 
-            # Query the data.
-            cursor.execute(self.get_value_sql(), [indicator_id])
+        for metadata_set in cursor.fetchall():
+
+            indicator_id = metadata_set['NSDPIndicatorID']
+
+            if indicator_id not in metadata_sets:
+                metadata_sets[indicator_id] = metadata_set
+            if indicator_id not in data_sets:
+                data_sets[indicator_id] = []
+            if indicator_id not in source_sets:
+                source_sets[indicator_id] = []
+
+            series = metadata_set['IndicatorShortName']
+            data_id = metadata_set['DataID']
+
+            cursor.execute(self.get_value_sql(), [data_id])
             data_rows = cursor.fetchall()
-            rows = [{
+            data_sets[indicator_id] += [{
                 'Year': self.fix_year(r['Year']),
                 'Units': self.fix_units(r['Value']),
-                'Series': self.fix_series(r['Proxy'], open_sdg_id),
+                'Series': series,
                 'Value': self.fix_value(r['Value']),
             } for r in data_rows]
+            source_sets[indicator_id] += [r['Source'] for r in data_rows]
+
+        for indicator_id in metadata_sets:
+            cursor.execute(self.get_indicator_sql(), [indicator_id])
+            indicator = cursor.fetchall()
+            indicator = indicator[0]
+            name = self.fix_indicator_name(indicator['NSDPIndicator'], indicator['NSDPIndicatorCode'])
+            open_sdg_id = self.fix_indicator_id(indicator_id)
 
             data = None
-            if len(rows) > 0:
-                data = self.create_dataframe(rows)
+            if len(data_sets[indicator_id]) > 0:
+                data = self.create_dataframe(data_sets[indicator_id])
 
-            # Query the metadata.
-            cursor.execute(self.get_metadata_sql(), [indicator_id])
-            meta = cursor.fetchall()
-            # TODO: How to handle multiple metadata sets per indicator?
-            #       For now just use the first one.
-            meta = meta[0] if len(meta) > 0 else {}
             # Calculate some settings.
+            meta = metadata_sets[indicator_id]
             meta['indicator_number'] = open_sdg_id
             meta['goal_number'] = open_sdg_id.split('-')[0]
             meta['goal_name'] = 'global_goals.' + meta['goal_number'] + '-title'
@@ -49,7 +63,7 @@ class InputNsdpDatabase(InputBase):
             meta['national_geographical_coverage'] = 'Vanuatu'
             meta['computation_units'] = meta['UnitofMeasure'] if 'UnitofMeasure' in meta else None
 
-            sources = set([r['Source'] for r in data_rows])
+            sources = set(source_sets[indicator_id])
             num = 1
             for source in sources:
                 meta['source_active_' + str(num)] = True
@@ -60,13 +74,13 @@ class InputNsdpDatabase(InputBase):
             self.add_indicator(open_sdg_id, data=data, meta=meta, name=name, options=indicator_options)
 
     def get_indicator_sql(self):
-        return "SELECT * FROM nsdpindicator"
+        return "SELECT * FROM nsdpindicator WHERE NSDPIndicatorCode = %s"
 
     def get_value_sql(self):
-        return "SELECT r.Year, r.Value, r.Source, d.Proxy FROM nsdpdata AS d JOIN nsdpyearvalue AS r ON d.DataID = r.Data_ID WHERE d.IndicatorID = %s AND r.Value != 'NA'"
+        return "SELECT Year, Value, Source FROM nsdpyearvalue WHERE Data_ID = %s AND Value != 'NA'"
 
     def get_metadata_sql(self):
-        return "SELECT * FROM nsdpmetadata WHERE NSDPIndicatorID = %s"
+        return "SELECT * FROM nsdpmetadata"
 
     def fix_year(self, year):
         return int(year)
@@ -97,11 +111,6 @@ class InputNsdpDatabase(InputBase):
         if 'VUV' in value:
             return 'VUV'
         return 'Total'
-
-    def fix_series(self, proxy, indicator_id):
-        if proxy:
-            return 'PROXY-' + indicator_id
-        return ''
 
     def fix_indicator_name(self, name, code):
         return name.replace(code, '').strip().strip('.')

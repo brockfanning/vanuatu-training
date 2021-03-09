@@ -271,7 +271,7 @@
         
         {
           "id": "ECO3-1-1",
-          "title": "ECO 3.1.1 Total annual value of tourism industry, infrastructure, agricultural production and industry as a proportion of GDP",
+          "title": "Total annual value of tourism industry, infrastructure, agricultural production and industry as a proportion of GDP",
           "description": "",
           "keywords": "",
           "href": "/vanuatu-nsdp/ECO3-1-1",
@@ -668,14 +668,6 @@
           "keywords": "",
           "href": "/vanuatu-nsdp/ENV2-4-2",
           "status": "complete"
-        },
-        {
-          "id": "ENV2-4-3",
-          "title": "Proportion of revised National Waste Management Strategy and Action Plan implemented",
-          "description": "",
-          "keywords": "",
-          "href": "/vanuatu-nsdp/ENV2-4-3",
-          "status": "notstarted"
         },
         {
           "id": "ENV2-5-1",

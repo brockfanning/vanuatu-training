@@ -1,27 +1,27 @@
 Year,Units,Series,Value
-2006,Total,,6056
-2007,Total,,13166
-2008,Total,,9176
-2009,Total,,10154
-2010,Total,,-3495
-2011,Total,,-3220
-2012,Total,,14201
-2013,Total,,1948
-2014,Total,,-1301
-2015,Total,,-18856
-2016,Total,,5165
-2017,Total,,13991
-2006,Total,,22368
-2007,Total,,-185
-2008,Total,,20401
-2009,Total,,18680
-2010,Total,,15650
-2011,Total,,14470
-2012,Total,,58305
-2013,Total,,29403
-2014,Total,,-22441
-2015,Total,,-22734
-2016,Total,,59011
-2017,Total,,-27059
-2018,Total,,6526
-2018,Total,,11016
+2006,Total,Change in Annual Tourism Arrivals by Air,6056
+2007,Total,Change in Annual Tourism Arrivals by Air,13166
+2008,Total,Change in Annual Tourism Arrivals by Air,9176
+2009,Total,Change in Annual Tourism Arrivals by Air,10154
+2010,Total,Change in Annual Tourism Arrivals by Air,-3495
+2011,Total,Change in Annual Tourism Arrivals by Air,-3220
+2012,Total,Change in Annual Tourism Arrivals by Air,14201
+2013,Total,Change in Annual Tourism Arrivals by Air,1948
+2014,Total,Change in Annual Tourism Arrivals by Air,-1301
+2015,Total,Change in Annual Tourism Arrivals by Air,-18856
+2016,Total,Change in Annual Tourism Arrivals by Air,5165
+2017,Total,Change in Annual Tourism Arrivals by Air,13991
+2018,Total,Change in Annual Tourism Arrivals by Air,6526
+2006,Total,Change in Annual Tourism Arrivals by Sea,22368
+2007,Total,Change in Annual Tourism Arrivals by Sea,-185
+2008,Total,Change in Annual Tourism Arrivals by Sea,20401
+2009,Total,Change in Annual Tourism Arrivals by Sea,18680
+2010,Total,Change in Annual Tourism Arrivals by Sea,15650
+2011,Total,Change in Annual Tourism Arrivals by Sea,14470
+2012,Total,Change in Annual Tourism Arrivals by Sea,58305
+2013,Total,Change in Annual Tourism Arrivals by Sea,29403
+2014,Total,Change in Annual Tourism Arrivals by Sea,-22441
+2015,Total,Change in Annual Tourism Arrivals by Sea,-22734
+2016,Total,Change in Annual Tourism Arrivals by Sea,59011
+2017,Total,Change in Annual Tourism Arrivals by Sea,-27059
+2018,Total,Change in Annual Tourism Arrivals by Sea,11016

@@ -1,32 +1,32 @@
 Year,Units,Series,Value
-2006,Total,,24010
-2007,Total,,23412
-2008,Total,,31667
-2009,Total,,31086
-2010,Total,,27510
-2011,Total,,27256
-2012,Total,,27454
-2013,Total,,29653
-2014,Total,,30435
-2015,Total,,39989
-2016,Total,,41408
-2017,Total,,39876
-2006,Total,,5383
-2007,Total,,5091
-2008,Total,,5721
-2009,Total,,6150
-2010,Total,,4694
-2011,Total,,6012
-2012,Total,,5073
-2013,Total,,3653
-2014,Total,,3653
-2015,Total,,4249
-2016,Total,,5446
-2017,Total,,6607
-2013,Total,,29794
-2014,Total,,43497
-2015,Total,,31948
-2016,Total,,40754
-2017,Total,,34535
-2018,Total,,38602
-2018,Total,,6946
+2006,Total,Value National Trade Import,24010
+2007,Total,Value National Trade Import,23412
+2008,Total,Value National Trade Import,31667
+2009,Total,Value National Trade Import,31086
+2010,Total,Value National Trade Import,27510
+2011,Total,Value National Trade Import,27256
+2012,Total,Value National Trade Import,27454
+2013,Total,Value National Trade Import,29653
+2014,Total,Value National Trade Import,30435
+2015,Total,Value National Trade Import,39989
+2016,Total,Value National Trade Import,41408
+2017,Total,Value National Trade Import,39876
+2018,Total,Value National Trade Import,38602
+2006,Total,Value National Trade Export,5383
+2007,Total,Value National Trade Export,5091
+2008,Total,Value National Trade Export,5721
+2009,Total,Value National Trade Export,6150
+2010,Total,Value National Trade Export,4694
+2011,Total,Value National Trade Export,6012
+2012,Total,Value National Trade Export,5073
+2013,Total,Value National Trade Export,3653
+2014,Total,Value National Trade Export,3653
+2015,Total,Value National Trade Export,4249
+2016,Total,Value National Trade Export,5446
+2017,Total,Value National Trade Export,6607
+2018,Total,Value National Trade Export,6946
+2013,Total,Volume of National Trade Export,29794
+2014,Total,Volume of National Trade Export,43497
+2015,Total,Volume of National Trade Export,31948
+2016,Total,Volume of National Trade Export,40754
+2017,Total,Volume of National Trade Export,34535

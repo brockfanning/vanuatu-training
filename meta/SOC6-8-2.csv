@@ -1,0 +1,23 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.8.2
+IndicatorShortName,Foreign Aid to Government Using PFM Systems
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Percentage of aid for the government sector using Vanuatu government PFM systems

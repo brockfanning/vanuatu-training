@@ -1,0 +1,25 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.3.1
+IndicatorShortName,Self-Reported Electoral Participation Rate
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2016 Mini Census, VNSO"
+data_non_statistical,False
+graph_title,Proportion of eligible population reporting to have voted in last election

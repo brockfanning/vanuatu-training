@@ -1,0 +1,27 @@
+PillarName,Society
+NSDPIndicatorID,SOC 3.1.1
+IndicatorShortName,"Skilled Health Professionals Ratio, Doctors"
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2015 HRMIS, MoH (from NSDP M&E Frame work)"
+source_active_2,True
+source_organisation_2,"2014 HRMIS, MoH (from NSDP M&E Frame work)"
+data_non_statistical,False
+graph_title,"Number of skilled health professionals to 10,000 population"

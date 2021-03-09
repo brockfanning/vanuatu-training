@@ -1,0 +1,27 @@
+PillarName,Society
+NSDPIndicatorID,SOC 4.2.2
+IndicatorShortName,Reported Violence Against Women
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2013 DHS Report (p243), MoH and VNSO"
+source_active_2,True
+source_organisation_2,"2011 Vanuatu National Survey on Women's Lives and Family Relations, VWC"
+data_non_statistical,False
+graph_title,"Number of reported cases of violence against women, children, and vulnerable people"

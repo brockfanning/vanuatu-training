@@ -1,0 +1,35 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 1.4.1
+IndicatorShortName,Value National Trade Import
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,"Table 6.1 : Summary of overseas trade, Total Imports in millions of vatu."
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2018 QSI December (p15, added total volume reported in tonnes), VNSO"
+source_active_2,True
+source_organisation_2,"QSI 2009 December, VNSO"
+source_active_3,True
+source_organisation_3,"2017 QSI December (p15, added total volume reported in tonnes), VNSO"
+source_active_4,True
+source_organisation_4,"QSI December 2018, VNSO"
+source_active_5,True
+source_organisation_5,"QSI December 2013, VNSO"
+source_active_6,True
+source_organisation_6,"QSI December 2017, VNSO"
+data_non_statistical,False
+graph_title,Value and volume of national trade/merchandise trade

@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 3.2.3
+IndicatorShortName,Atmospheric and Earth Sciences Research and Publication
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Increased knowledge and scientific research in atmospheric and earth sciences

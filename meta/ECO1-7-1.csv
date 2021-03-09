@@ -1,0 +1,23 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 1.7.1
+IndicatorShortName,Major Commodity Production Volume Cocoa
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Level of production of major commodities to include cocoa and copra

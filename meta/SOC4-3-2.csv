@@ -1,0 +1,23 @@
+PillarName,Society
+NSDPIndicatorID,SOC 4.3.2
+IndicatorShortName,Disability Accessible Public Infrastructure
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,"Percentage of public buildings and banking, employment and recreational facilities allowing access for people with disabilities"

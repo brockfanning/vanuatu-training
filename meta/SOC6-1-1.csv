@@ -1,0 +1,23 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.1.1
+IndicatorShortName,Employment Disciplinary Board Decisions
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Reduction in annual Employment Disciplinary Board decisions

@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 4.4.1
+IndicatorShortName,National Fishing Fleet Compliance
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Level of compliance by Vanuatu with respect to its national fishing fleet within the Regional Fisheries Management Organisations

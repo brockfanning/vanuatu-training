@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 1.4.2
+IndicatorShortName,Food Storage and Preservation Trainings
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,"Total number of people receiving training in food storage and preservation per year in MALFFB led, NGO or partnered initiatives"

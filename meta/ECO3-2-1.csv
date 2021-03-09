@@ -1,0 +1,25 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 3.2.1
+IndicatorShortName,Household Tourism Income
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2010 HIES using (p146) total monthly household income from handicrafts divided by total project number of households (50,740) multiplied by 12 for annual estimate, VNSO"
+data_non_statistical,False
+graph_title,Average annual household income from tourism

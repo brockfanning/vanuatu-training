@@ -1,0 +1,23 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 2.3.2
+IndicatorShortName,Existing Building Compliance with Building Codes
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Proportion of existing buildings repaired in compliance with the building code

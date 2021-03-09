@@ -1,0 +1,31 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 2.4.2
+IndicatorShortName,Vehicular Compliance with Emissions Standards
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2018 QSI December (p26), VNSO"
+source_active_2,True
+source_organisation_2,"2009 QSI December (p26), VNSO"
+source_active_3,True
+source_organisation_3,"2017 QSI December (p26), VNSO"
+source_active_4,True
+source_organisation_4,"2013 QSI December (p30), VNSO"
+data_non_statistical,False
+graph_title,Proportion of vehicles that comply with emission standards

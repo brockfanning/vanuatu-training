@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 5.5.1
+IndicatorShortName,Environmental Programme Model Schools
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Number of model schools implementing environmental programmes

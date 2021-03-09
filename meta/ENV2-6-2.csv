@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 2.6.2
+IndicatorShortName,Deposits in Environmental Trust Fund
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Amount deposited in the Environmental Trust Fund

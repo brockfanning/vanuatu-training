@@ -1,0 +1,23 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 3.6.1
+IndicatorShortName,"Traveling Distance to Nearest School, Health Facility, Police Post"
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,"Average traveling distance to nearest school, health facility, police post by province"

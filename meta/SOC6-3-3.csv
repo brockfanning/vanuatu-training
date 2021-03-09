@@ -1,0 +1,23 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.3.3
+IndicatorShortName,MP Annual Financial Accountability Reporting
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Number of MPs submitting annual financial accountability report

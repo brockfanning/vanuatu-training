@@ -1,0 +1,31 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 1.5.3
+IndicatorShortName,Balance of Trade
+Definition,Trade balance taken from fourth quarter QSI in millions of vatu
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,Table 6.1: Summary of overseas trade
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"QSI December 2018, VNSO"
+source_active_2,True
+source_organisation_2,"QSI December 2013, VNSO"
+source_active_3,True
+source_organisation_3,"QSI December 2017, VNSO"
+source_active_4,True
+source_organisation_4,"QSI 2009 December, VNSO"
+data_non_statistical,False
+graph_title,Balance of trade by major partner countries

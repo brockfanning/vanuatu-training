@@ -1,0 +1,49 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 3.2.2
+IndicatorShortName,Change in Annual Tourism Arrivals by Air
+Definition,Total Visitors as published refers to visitors arrival by air
+Calculation/Formulation,Total Visitors minus total visitors previous year
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,"Table 7.1 : Summary of International Migration Arrival Statistics , QSI"
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2008 and 2009 figures from fourth quarter 2009 QSI, VNSO"
+source_active_2,True
+source_organisation_2,"2006 and 2007 figures from fourth quarter 2009 QSI, VNSO"
+source_active_3,True
+source_organisation_3,"2013 value from fourth quarter 2013 QSI, 2014 figure from  fourth quarter  2017, VNSO"
+source_active_4,True
+source_organisation_4,"2009 value from fourth quarter 2009 QSI, 2010 figure from  fourth quarter  2013, VNSO"
+source_active_5,True
+source_organisation_5,"2014 and 2015 figures from fourth quarter 2017 QSI, VNSO"
+source_active_6,True
+source_organisation_6,"2017 and 2018 figures from fourth quarter 2018 QSI, VNSO"
+source_active_7,True
+source_organisation_7,"2005 value from fourth quarter 2007 QSI, 2006 figure from  fourth quarter  2009, VNSO"
+source_active_8,True
+source_organisation_8,"2010 and 2011 figures from fourth quarter 2013 QSI, VNSO"
+source_active_9,True
+source_organisation_9,"2016 and 2017 figures from fourth quarter 2017 QSI, VNSO"
+source_active_10,True
+source_organisation_10,"2012 and 2013 figures from fourth quarter 2013 QSI, VNSO"
+source_active_11,True
+source_organisation_11,"2007 and 2008 figures from fourth quarter 2009 QSI, VNSO"
+source_active_12,True
+source_organisation_12,"2011 and 2012 figures from fourth quarter 2013 QSI, VNSO"
+source_active_13,True
+source_organisation_13,"2015 and 2016 figures from fourth quarter 2017 QSI, VNSO"
+data_non_statistical,False
+graph_title,Annual change in tourism by air and sea arrivals

@@ -1,0 +1,23 @@
+PillarName,Society
+NSDPIndicatorID,SOC 2.4.1
+IndicatorShortName,Technical and Vocational Institutions Registered VQA
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,No. of technical and vocational schools that are certified and registered under the Vanuatu Qualifications Authority to operate

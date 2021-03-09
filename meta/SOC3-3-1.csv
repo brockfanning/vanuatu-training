@@ -1,0 +1,27 @@
+PillarName,Society
+NSDPIndicatorID,SOC 3.3.1
+IndicatorShortName,DTP3 Immunisation Coverage for 1 Year Olds
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2015 Health Data, Routine Coverage, EPI Section, MoH (From M&E Framework)"
+source_active_2,True
+source_organisation_2,"2014 Health Data, Routine Coverage, EPI Section, MoH (From M&E Framework)"
+data_non_statistical,False
+graph_title,Diphtheria tetanus toxoid and pertussis (DTP3) immunisation coverage among 1 year olds (%)

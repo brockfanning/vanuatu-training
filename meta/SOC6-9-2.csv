@@ -1,0 +1,25 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.9.2
+IndicatorShortName,NSDP Strategic Objectives Achievement 
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,VNSO NSDS Assessment
+data_non_statistical,False
+graph_title,Percentage of NSDS strategic objectives achieved

@@ -1,0 +1,27 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 2.9.1
+IndicatorShortName,Access to Internet
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2009 Population and Household Census (p106, individuals aged 15 +), VNSO"
+source_active_2,True
+source_organisation_2,"2016 Mini Census (p225, proportion of households), VNSO"
+data_non_statistical,False
+graph_title,% of population having access to broadband connection

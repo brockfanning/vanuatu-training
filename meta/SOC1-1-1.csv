@@ -1,0 +1,25 @@
+PillarName,Society
+NSDPIndicatorID,SOC 1.1.1
+IndicatorShortName,Daily Use of Indigenous Languages
+Definition,Percentage of the population who report speaking their indigenous language every day
+Calculation/Formulation,(Total number of people that speak lanwis/vernacular indigenous langauge every day / Total population of that specific cultural group) * 100
+Range,Those who are eligible to be asked the question - population 12 years and older captures Vanuatu youth demographic
+Assumptions,"People reporting ""Daily Use"" use lanwis/vernacular indigenous language more than once a day"
+Limitations,"This question is not included in the Census and does not distinguish between indigenous language groups, of which there are estimated 100+"
+IntendedDirection,2
+Purpose/Rationale,Measure prevalence of use of indigenous language for communication and proxy measure for traditional knowledge
+PolicyLinkage,"Component of Melanesian Wellbeing Analysis, NSDP 1.1.1, Early Childhood Education vernacular policy"
+PreferredDataSource,Household Income and Expenditure Survey
+AlternativeDataSource,"Language use surveys, Culture Mapping"
+SourceTag,HIES
+PrimaryCollectionSystem,Survey - Vanuatu National Statistics Office
+FrequencyofCollection,3-5 Years
+OtherDemandSources,UNESCO
+ResponsibleAgency,VNSO
+RelatedLinks,http://pdf.spc.int/index.php/catelog/43
+graph_type,bar
+computation_units,%
+source_active_1,True
+source_organisation_1,2012 Pacific Living Conditions Survey (Hybrid) - VNSO and SPC
+data_non_statistical,False
+graph_title,Proportion of population speaking indigenous language daily

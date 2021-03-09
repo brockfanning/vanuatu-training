@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 4.6.2
+IndicatorShortName,Licensed Foresters Harvesting Within Allocated Quotas
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Proportion of licensees harvesting within their allocated quota or Proportion of licensee operations being monitored

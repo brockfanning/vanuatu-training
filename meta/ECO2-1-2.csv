@@ -1,0 +1,23 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 2.1.2
+IndicatorShortName,"Mini-Grid Renewable Electricity by Province, Rural"
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Total number of mini-grid renewable energy systems in rural communities by province

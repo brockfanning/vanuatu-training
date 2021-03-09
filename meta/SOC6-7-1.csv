@@ -1,0 +1,31 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.7.1
+IndicatorShortName,Population Use of Radio
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2016 Mini Census, VNSO"
+source_active_2,True
+source_organisation_2,"2009 Population and Housing Census, VNSO"
+source_active_3,True
+source_organisation_3,"2010 HIES (p68), VNSO, Household Proportion with mobile phones"
+source_active_4,True
+source_organisation_4,"2010 HIES (p68), VNSO"
+data_non_statistical,False
+graph_title,"Proportion of population utilising media outlets for news including: newspapers, mobile phones, radio, television, and internet"

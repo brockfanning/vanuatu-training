@@ -1,0 +1,35 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 1.1.1
+IndicatorShortName,Underlying Inflation Rate
+Definition,Total rate of change of CPI from previouse year
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,Table 1 CPI December Quarter
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"December Quarter Statistical Update 2017 : CPI, VNSO"
+source_active_2,True
+source_organisation_2,"December Quarter Statistical Update 2013 : CPI, VNSO"
+source_active_3,True
+source_organisation_3,"December Quarter Statistical Update 2015 : CPI, VNSO"
+source_active_4,True
+source_organisation_4,"December Quarter Statistical Update 2016 : CPI, VNSO"
+source_active_5,True
+source_organisation_5,"December Quarter Statistical Update 2014 : CPI, VNSO"
+source_active_6,True
+source_organisation_6,"December Quarter Statistical Update 2018 : CPI, VNSO"
+data_non_statistical,False
+graph_title,Change in underlying inflation rate (CPI analysis)

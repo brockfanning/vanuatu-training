@@ -1,0 +1,23 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 4.4.1
+IndicatorShortName,Registered Hospitality Institutions Using Energy Efficient Lighting and Appliances
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Proportion of registered hospitality institutions with rooms and services equipped with energy efficient lighting and appliances

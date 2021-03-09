@@ -1,0 +1,23 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 3.4.2
+IndicatorShortName,Coverage of Climate Change Adaptation and Resilience Awareness Activities
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Number of communication and partnership activities and awareness programs established targeting issues such as climate change adaptation and resilience

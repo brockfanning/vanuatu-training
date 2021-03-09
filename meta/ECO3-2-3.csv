@@ -1,0 +1,27 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 3.2.3
+IndicatorShortName,Tourism in Outer Islands as Proportion to Total
+Definition,
+Calculation/Formulation,Total number of outer islands visitors divided by the total number of visitors arrivals from overseas.
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,"Table 7: Visitors travelling to outer islands , Vanuatu and Table 1: Summary of overseas Migration , International Arrival Statistics December publication"
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2017 International Arrivals Statistics Monthly Report (December), VNSO"
+source_active_2,True
+source_organisation_2,"2018 International Arrivals Statistics Monthly Report (December), VNSO"
+data_non_statistical,False
+graph_title,Proportion of visitors traveling to outer islands

@@ -1,0 +1,23 @@
+PillarName,Society
+NSDPIndicatorID,SOC 6.7.2
+IndicatorShortName,Data Requests Actioned by RTI Officers
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Proportion of data collected from requests acted upon by RTI officers in each government agency

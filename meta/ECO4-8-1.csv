@@ -1,0 +1,23 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 4.8.1
+IndicatorShortName,Change in Total New Businesses Registered
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+data_non_statistical,False
+graph_title,Total annual number of new businesses registered by type

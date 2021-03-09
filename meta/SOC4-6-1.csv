@@ -1,0 +1,25 @@
+PillarName,Society
+NSDPIndicatorID,SOC 4.6.1
+IndicatorShortName,"Support Services for Child Human Rights Violations, Sexual Abuse"
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2013 DHS (p243), VNSO"
+data_non_statistical,False
+graph_title,"Total number of cases with children experiencing human rights violations in the following areas sexual abuse, neglect, physical abuse, exploitation, emotional abuse (disseminate by these areas) accessing support services"

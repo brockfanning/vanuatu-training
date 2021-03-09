@@ -1,0 +1,31 @@
+PillarName,Economy
+NSDPIndicatorID,ECO 3.1.1
+IndicatorShortName,Value of Tourism as Proportion GDP
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2016 Statistical Release: GDP 2016 Highlights (p7 Constant Prices), VNSO"
+source_active_2,True
+source_organisation_2,"2017 Statistical Release: GDP 2016 Highlights (p7 Constant Prices), VNSO"
+source_active_3,True
+source_organisation_3,"2014 National Accounts (p22, Constant Prices), VNSO"
+source_active_4,True
+source_organisation_4,"2017 Statistical Release: GDP 2017 Highlights (p7 Constant Prices), VNSO"
+data_non_statistical,False
+graph_title,"Total annual value of tourism industry, infrastructure, agricultural production and industry as a proportion of GDP"

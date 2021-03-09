@@ -1,0 +1,25 @@
+PillarName,Society
+NSDPIndicatorID,SOC 3.4.2
+IndicatorShortName,Permanent Corporate Positions Filled at MoH
+Definition,
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2016 HRMIS Data, HR Unit (from M&E Framework)"
+data_non_statistical,False
+graph_title,Percentage of Corporate positions within MoH filled on permanent basis

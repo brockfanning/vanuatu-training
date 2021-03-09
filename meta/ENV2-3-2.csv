@@ -1,0 +1,27 @@
+PillarName,Environment
+NSDPIndicatorID,ENV 2.3.2
+IndicatorShortName,Households Using Renewable Energy as Main Source of Lighting
+Definition,Includes home sola system and sola lamps
+Calculation/Formulation,
+Range,
+Assumptions,
+Limitations,
+IntendedDirection,
+Purpose/Rationale,
+PolicyLinkage,
+PreferredDataSource,
+AlternativeDataSource,
+SourceTag,Population Housing Census and HIES / NSDP baseline survey main source of lighting.
+PrimaryCollectionSystem,
+FrequencyofCollection,
+OtherDemandSources,
+ResponsibleAgency,
+RelatedLinks,
+graph_type,bar
+computation_units,
+source_active_1,True
+source_organisation_1,"2016 Mini Census (p169), VNSO"
+source_active_2,True
+source_organisation_2,"2009 Population and Housing Census (p181), VNSO"
+data_non_statistical,False
+graph_title,Proportion of households using renewable energy technology as main source of lighting
